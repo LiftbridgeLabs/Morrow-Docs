@@ -67,7 +67,9 @@ Before opening a new issue, please search the existing issues to see whether the
 
 Morrow is developed independently by [Liftbridge Labs](https://github.com/LiftbridgeLabs). Voluntary support helps fund continued development, testing, and maintenance.
 
-[Support Liftbridge Labs on Buy Me a Coffee](https://buymeacoffee.com/liftbridgelabs)
+<a href="https://buymeacoffee.com/liftbridgelabs">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Support Liftbridge Labs on Buy Me a Coffee" height="50">
+</a>
 
 ---
 
