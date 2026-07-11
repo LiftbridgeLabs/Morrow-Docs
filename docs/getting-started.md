@@ -9,16 +9,29 @@ You will need:
 - An iPhone or iPad running a supported iOS or iPadOS version
 - A working BookOrbit or Audiobookshelf server
 - The server address you use from your device
-- A valid account for that server
+- A valid account for that server (or, for Audiobookshelf, an API key)
 
-## Add a library
+## The app at a glance
 
-1. Open Morrow.
+Morrow has four tabs:
+
+- **Library** — browse the active server's books, series, and collections, with search and sorting. Tapping a book opens its details page (synopsis, ratings, chapters, and file information) with a Play button.
+- **Listening** — every audiobook you have in progress, combined across all of your configured servers.
+- **Playing** — cover art and playback controls for the current book. On launch, Morrow loads your most recent book here, paused at the synced position.
+- **Settings** — servers, playback cache, iCloud backup, and appearance.
+
+There is no login screen: Morrow connects to your servers in the background and re-authenticates automatically.
+
+## Add a server
+
+1. Open Morrow and go to the **Settings** tab.
 2. Choose **Add Server**.
 3. Select **BookOrbit** or **Audiobookshelf**.
 4. Enter the server address exactly as you use it in a browser.
-5. Enter your account credentials.
-6. Save the connection and allow Morrow to load your library.
+5. Enter your account credentials (Audiobookshelf also accepts an API key).
+6. Save. The Library tab connects and loads your books.
+
+You can add more than one server and switch between them from the Library tab. Listening progress for the same book is kept in sync across servers automatically.
 
 ## Server addresses
 
@@ -37,4 +50,5 @@ Do not post private server addresses, access tokens, passwords, or screenshots c
 
 - [BookOrbit setup](bookorbit-setup.md)
 - [Audiobookshelf setup](audiobookshelf-setup.md)
+- [Frequently asked questions](faq.md)
 - [Troubleshooting](troubleshooting.md)
