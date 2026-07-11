@@ -6,7 +6,7 @@ Morrow connects to an audiobook server you already operate. It does not host or 
 
 You will need:
 
-- An iPhone or iPad running a supported iOS or iPadOS version
+- An iPhone or iPad running iOS 18 / iPadOS 18 or later
 - A working BookOrbit or Audiobookshelf server
 - The server address you use from your device
 - A valid account for that server (or, for Audiobookshelf, an API key)

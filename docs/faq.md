@@ -14,7 +14,7 @@ No. Morrow is a commercial, closed-source application. This repository contains 
 
 ## Which devices are supported?
 
-Morrow is being developed for iPhone and iPad. Exact operating-system requirements will be published before release.
+iPhone and iPad running iOS 18 / iPadOS 18 or later.
 
 ## Can I connect more than one server?
 
@@ -35,7 +35,7 @@ Morrow is an audiobook player, so ebook-only libraries and ebook-only entries ar
 
 ## How does the Listening tab decide what's "in progress"?
 
-A book appears after about a minute of real listening. Briefly opening a book doesn't shelve it — and doesn't create a progress record on your server. Swipe a book left to remove it from the list; it returns if you listen to it again.
+A book appears after 60 seconds of playback. Briefly opening a book doesn't shelve it — and doesn't create a progress record on your server. Swipe a book left to remove it from the list; it returns if you listen to it again.
 
 ## What does "Back up servers to iCloud" do?
 

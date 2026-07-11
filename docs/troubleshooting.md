@@ -32,7 +32,7 @@ Morrow plays in the background and on the lock screen. If audio stops when leavi
 
 ## A book is missing from the Listening tab
 
-- Books appear after about a minute of real listening; brief opens are ignored on purpose.
+- Books appear after 60 seconds of playback; brief opens are ignored on purpose.
 - A book you removed with a left swipe returns once you listen to it again.
 - BookOrbit has no complete "audio in progress" listing, so a book started only in the BookOrbit web player may not appear until you have played it in Morrow once.
 

@@ -1,13 +1,44 @@
-# Morrow
+<p align="center">
+  <img src="assets/morrow-icon.png" alt="Morrow app icon" width="128">
+</p>
 
-**A native audiobook player for iPhone and iPad.**
+<h1 align="center">Morrow</h1>
 
-Morrow is designed for listeners who keep their audiobook libraries on their own servers. It currently supports:
+<p align="center"><strong>Your audiobooks. Your servers. One beautiful player.</strong></p>
 
-- BookOrbit
-- Audiobookshelf
+<p align="center">
+Morrow is a native iPhone and iPad audiobook player for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a> or <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a> servers.
+</p>
 
-This repository is the public home for Morrow documentation, support, release notes, bug reports, and feature requests. The application source code is maintained separately and is not open source.
+<p align="center">
+  <a href="docs/getting-started.md">Get Started</a> ·
+  <a href="docs/faq.md">FAQ</a> ·
+  <a href="docs/troubleshooting.md">Troubleshooting</a> ·
+  <a href="https://github.com/LiftbridgeLabs/Morrow-Docs/issues">Support</a>
+</p>
+
+---
+
+## Why Morrow
+
+- **All your servers, one app** — connect multiple BookOrbit and Audiobookshelf servers at once, and keep the listening position of a book in sync when it lives on more than one of them.
+- **One Listening shelf** — everything you have in progress, combined across every server, on a single tab.
+- **Listen offline, start instantly** — download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
+- **A player built for audiobooks** — chapters, playback speed, a sleep timer that can stop at the end of the chapter, lock-screen and background playback.
+- **Set up once, everywhere** — your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
+- **CarPlay** — built and ready, arriving with an upcoming release.
+
+Screenshots are coming as the interface settles.
+
+## Status
+
+| | |
+|---|---|
+| Development | Active — private development builds |
+| TestFlight | Not yet available |
+| App Store | Not yet released |
+| CarPlay | Implemented; Apple entitlement approval pending |
+| Requires | iOS 18 / iPadOS 18 or later |
 
 ## Documentation
 
@@ -32,20 +63,12 @@ Before opening a new issue, please search the existing issues to see whether the
 - [Support policy](SUPPORT.md)
 - [Security](SECURITY.md)
 
-## Availability
-
-Morrow is currently in active development. App Store availability and download information will be added here when the public release is ready.
-
 ## Support development
 
-Morrow is developed independently by Liftbridge Labs. Voluntary support helps fund continued development, testing, and maintenance.
+Morrow is developed independently by [Liftbridge Labs](https://github.com/LiftbridgeLabs). Voluntary support helps fund continued development, testing, and maintenance.
 
 [Support Liftbridge Labs on Buy Me a Coffee](https://buymeacoffee.com/liftbridgelabs)
 
-## About Liftbridge Labs
-
-Morrow is developed by [Liftbridge Labs](https://github.com/LiftbridgeLabs).
-
 ---
 
-Morrow is a commercial, closed-source application. This public repository contains documentation and issue tracking only.
+Morrow is a commercial, closed-source application. This public repository contains documentation and issue tracking only. Morrow does not provide, sell, or host audiobook content — it plays libraries from servers you operate.
