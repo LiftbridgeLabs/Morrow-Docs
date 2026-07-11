@@ -11,7 +11,7 @@ Morrow can connect to a BookOrbit server using the server address and account cr
 
 ## Add BookOrbit to Morrow
 
-1. Open Morrow.
+1. Open Morrow and go to the **Settings** tab.
 2. Choose **Add Server**.
 3. Select **BookOrbit**.
 4. Enter the server address.
