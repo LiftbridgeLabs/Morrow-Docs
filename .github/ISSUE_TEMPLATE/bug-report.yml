@@ -1,0 +1,81 @@
+name: Bug report
+description: Report a reproducible problem with Morrow
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Do not include passwords, access tokens, API keys, or private server addresses.
+  - type: input
+    id: version
+    attributes:
+      label: Morrow version and build
+      placeholder: Example: 1.0 (15)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and operating system
+      placeholder: Example: iPhone 16 Pro, iOS 18.5
+    validations:
+      required: true
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Server type
+      options:
+        - BookOrbit
+        - Audiobookshelf
+        - Not server-related
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: server-version
+    attributes:
+      label: Server version
+      placeholder: Leave blank when not applicable
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Tap...
+        3. Observe...
+    validations:
+      required: true
+  - type: dropdown
+    id: network
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - Local network
+        - Remote connection
+        - Both
+        - Not applicable
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error text or additional details
+      description: Redact credentials, tokens, personal data, and private addresses before posting.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I removed credentials, tokens, and other private information.
+          required: true
