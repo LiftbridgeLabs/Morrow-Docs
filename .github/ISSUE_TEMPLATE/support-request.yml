@@ -1,0 +1,46 @@
+name: Support request
+description: Ask for help using Morrow
+title: "[Support]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please read the documentation and troubleshooting guide first. Do not post passwords, tokens, private server addresses, or personal library information.
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Morrow version and build
+  - type: input
+    id: device
+    attributes:
+      label: Device and operating system
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Server type
+      options:
+        - BookOrbit
+        - Audiobookshelf
+        - Not server-related
+        - Other
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you already tried?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked the documentation and troubleshooting guide.
+          required: true
+        - label: I removed credentials and private information.
+          required: true
