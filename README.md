@@ -36,6 +36,12 @@ Before opening a new issue, please search the existing issues to see whether the
 
 Morrow is currently in active development. App Store availability and download information will be added here when the public release is ready.
 
+## Support development
+
+Morrow is developed independently by Liftbridge Labs. Voluntary support helps fund continued development, testing, and maintenance.
+
+[Support Liftbridge Labs on Buy Me a Coffee](https://buymeacoffee.com/liftbridgelabs)
+
 ## About Liftbridge Labs
 
 Morrow is developed by [Liftbridge Labs](https://github.com/LiftbridgeLabs).
