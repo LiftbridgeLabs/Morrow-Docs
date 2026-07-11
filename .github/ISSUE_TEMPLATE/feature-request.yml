@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an improvement or new capability for Morrow
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem to solve, not only the proposed implementation.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Explain how you would expect the feature to work.
+    validations:
+      required: true
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Relevant server type
+      options:
+        - Both BookOrbit and Audiobookshelf
+        - BookOrbit
+        - Audiobookshelf
+        - Not server-specific
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for a similar request.
+          required: true
