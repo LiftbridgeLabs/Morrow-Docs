@@ -43,7 +43,11 @@ It stores your server list (including passwords) in your iCloud Keychain — the
 
 ## Does Morrow support CarPlay?
 
-CarPlay support is built and planned for release; it is awaiting Apple's CarPlay entitlement approval.
+Yes. Plug in and Morrow appears on the CarPlay home screen with a Continue Listening list — pick a book and the car's playback controls take over from there.
+
+## My server sits behind Cloudflare (or another proxy that requires a header)
+
+Open the server in **Settings**, scroll to **Advanced**, and add the headers your proxy expects. There is a one-tap **Cloudflare Access** preset that fills in `CF-Access-Client-Id` and `CF-Access-Client-Secret` for you — paste in the values from your Cloudflare service token. Header values are stored in the iOS Keychain, and Morrow sends them on everything it asks of your server, including audio streaming and downloads.
 
 ## Can I use Morrow outside my home network?
 

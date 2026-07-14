@@ -15,7 +15,10 @@ Public release notes will be recorded here once testing builds and production ve
 - iCloud backup of the server list via iCloud Keychain, restorable on other devices
 - Ebook-only libraries and entries hidden (audiobook-focused)
 - Light/dark appearance with matching app icon
-- CarPlay support built, pending Apple entitlement approval
+- CarPlay: browse Continue Listening and play from the car; Apple entitlement granted and shipping
+- Custom request headers per server, with a one-tap Cloudflare Access preset — for servers behind edge protection
+- Password re-authentication prompt when a server rejects saved credentials (dismissable)
+- Statistics scoped to the library you're browsing, and listening history now included in the iCloud backup
 
 ## Earlier
 

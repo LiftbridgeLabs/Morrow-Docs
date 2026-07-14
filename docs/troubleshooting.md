@@ -47,6 +47,16 @@ Morrow plays in the background and on the lock screen. If audio stops when leavi
 - By default Morrow never downloads over cellular. Enable **Download over cellular** in Settings, or connect to Wi-Fi.
 - The automatic playback cache skips books larger than the cache limit set in Settings.
 
+## Morrow keeps asking for my password
+
+Some servers rotate or expire passwords. When a server rejects the saved password, Morrow offers to re-enter it — you can dismiss that prompt and it will stay quiet until the next launch.
+
+For Audiobookshelf, the durable fix is an **API key**: open the server in **Settings**, switch **Sign in with** to **API Key**, and paste a key generated in the Audiobookshelf web UI under **Settings → API Keys**. API keys survive password changes.
+
+## My server is behind Cloudflare and Morrow can't reach it
+
+Edge protection blocks requests that don't carry the right header, so the connection fails before your server ever sees it. Open the server in **Settings → Advanced** and add the required headers — there's a one-tap **Cloudflare Access** preset for the standard service-token pair.
+
 ## Reporting a problem
 
 Use the [bug report form](https://github.com/LiftbridgeLabs/Morrow-Docs/issues/new?template=bug-report.yml) and include:
