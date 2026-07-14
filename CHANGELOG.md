@@ -18,7 +18,8 @@ Public release notes will be recorded here once testing builds and production ve
 - CarPlay: browse Continue Listening and play from the car; Apple entitlement granted and shipping
 - Custom request headers per server, with a one-tap Cloudflare Access preset — for servers behind edge protection
 - Password re-authentication prompt when a server rejects saved credentials (dismissable)
-- Statistics scoped to the library you're browsing, and listening history now included in the iCloud backup
+- Statistics describe your listening across your devices (combined through your iCloud backup), with each server's own numbers shown separately
+- Listening history is included in the iCloud backup, so it survives a reinstall or a new device
 
 ## Earlier
 
