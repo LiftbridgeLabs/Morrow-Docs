@@ -10,6 +10,7 @@ Public release notes will be recorded here once testing builds and production ve
 - Library browsing with search, sorting, series, and collections; book details page with synopsis, community ratings, metadata, chapters, and track information
 - Listening tab: in-progress books combined across all servers, with swipe-to-remove
 - Cross-server listening-position sync for books that exist on more than one server
+- Your place is kept even when a book is re-imported on the server (for example, when automation upgrades it to a better-quality file): Morrow recognizes the same book and carries your position forward, asking first if it isn't certain
 - Full playback suite: background and lock-screen playback, chapters, playback speed, sleep timer (including end-of-chapter), skip controls
 - Offline downloads, plus an automatic playback cache with user-set size limit and cellular protection (nothing downloads over cellular unless enabled)
 - iCloud backup of the server list via iCloud Keychain, restorable on other devices
