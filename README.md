@@ -23,7 +23,7 @@ Morrow is a native iPhone and iPad audiobook player for people who keep their li
 
 A **morrow** is what comes next: the following day, tomorrow, the continuation after today.
 
-Morrow is not named simply because it plays audiobooks. It is named because it protects what comes next. Stop listening today and Morrow remembers where you were. Change devices or move between supported libraries and your story can continue without starting over.
+Morrow is not named simply because it plays audiobooks. It is named because it protects what comes next. Stop listening today and Morrow remembers where you were. Change devices, or even lose a book to a server-side re-import, and your story can continue without starting over.
 
 > **Every story has a Morrow.**  
 > Because every story deserves to continue.
@@ -32,12 +32,11 @@ Morrow is built around continuity — carrying stories forward across days, devi
 
 ## Why Morrow
 
-- **All your servers, one app** — connect multiple BookOrbit and Audiobookshelf servers at once, and keep the listening position of a book in sync when it lives on more than one of them.
-- **One Listening shelf** — everything you have in progress, combined across every server, on a single tab.
+- **One app, every server you run** — connect multiple BookOrbit and Audiobookshelf servers at once, and switch between them from Home. Each one behaves exactly like itself — its own library, its own read/finished statuses (BookOrbit's full set or Audiobookshelf's), its own progress — nothing forced to look the same across servers.
 - **Listen offline, start instantly** — download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
 - **A player built for audiobooks** — chapters, playback speed, a sleep timer that can stop at the end of the chapter, lock-screen and background playback.
 - **Set up once, everywhere** — your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
-- **CarPlay** — built and ready, arriving with an upcoming release.
+- **CarPlay** — browse and play your in-progress books from the car.
 
 Screenshots are coming as the interface settles.
 
@@ -48,7 +47,7 @@ Screenshots are coming as the interface settles.
 | Development | Active — private development builds |
 | TestFlight | Not yet available |
 | App Store | Not yet released |
-| CarPlay | Implemented; Apple entitlement approval pending |
+| CarPlay | Implemented and shipping |
 | Requires | iOS 18 / iPadOS 18 or later |
 
 ## Documentation

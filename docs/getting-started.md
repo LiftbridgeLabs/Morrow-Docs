@@ -13,11 +13,12 @@ You will need:
 
 ## The app at a glance
 
-Morrow has four tabs:
+Morrow has five tabs:
 
-- **Library** — browse the active server's books, series, and collections, with search and sorting. Tapping a book opens its details page (synopsis, ratings, chapters, and file information) with a Play button.
-- **Listening** — every audiobook you have in progress, combined across all of your configured servers.
-- **Playing** — cover art and playback controls for the current book. On launch, Morrow loads your most recent book here, paused at the synced position.
+- **Home** — choose which server you're using, see what you're currently listening to, a Continue Playing shelf of that server's in-progress books, and configurable shelves like Recently Added and Discover.
+- **Library** — browse the selected server's books, authors, and narrators, with search, sorting, and an A–Z index for jumping around a large library.
+- **Playing** — cover art and playback controls for the current book, followed by its full details: synopsis, ratings, chapters, file information, and read/finished status.
+- **Collections** — the selected server's series and collections (plus Audiobookshelf playlists or BookOrbit smart scopes, whichever it supports).
 - **Settings** — servers, playback cache, iCloud backup, and appearance.
 
 There is no login screen: Morrow connects to your servers in the background and re-authenticates automatically.
@@ -29,9 +30,9 @@ There is no login screen: Morrow connects to your servers in the background and 
 3. Select **BookOrbit** or **Audiobookshelf**.
 4. Enter the server address exactly as you use it in a browser.
 5. Enter your account credentials (Audiobookshelf also accepts an API key).
-6. Save. The Library tab connects and loads your books.
+6. Save. Select it on the **Home** tab and Morrow connects and loads your books.
 
-You can add more than one server and switch between them from the Library tab. Listening progress for the same book is kept in sync across servers automatically.
+You can add more than one server and switch between them from the Home tab. Each server is independent — Morrow doesn't merge or sync anything between them, so switching servers shows that server's own library, listening progress, and status exactly as it is on that server.
 
 ## Server addresses
 

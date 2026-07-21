@@ -18,7 +18,7 @@ iPhone and iPad running iOS 18 / iPadOS 18 or later.
 
 ## Can I connect more than one server?
 
-Yes. Servers are managed on the Settings tab, and the Library tab switches between them. When the same audiobook exists on more than one server, Morrow keeps its listening position in sync across them (this can be turned off in Settings).
+Yes. Servers are added on the Settings tab and selected on the Home tab. Each server is completely independent — Morrow doesn't merge, combine, or sync anything between them, even if the same audiobook exists on more than one. Switching servers shows that server's own library, progress, and status exactly as it is there.
 
 ## Does Morrow work offline?
 
@@ -33,9 +33,9 @@ By default nothing downloads over cellular; there is an explicit switch in Setti
 
 Morrow is an audiobook player, so ebook-only libraries and ebook-only entries are hidden. Books that have both an ebook and audio files appear normally.
 
-## How does the Listening tab decide what's "in progress"?
+## How does Home's Continue Playing decide what's "in progress"?
 
-A book appears after 60 seconds of playback. Briefly opening a book doesn't shelve it — and doesn't create a progress record on your server. Swipe a book left to remove it from the list; it returns if you listen to it again.
+A book appears after 60 seconds of playback. Briefly opening a book doesn't shelve it — and doesn't create a progress record on your server. Remove a book from the list with the context menu; it returns if you listen to it again. Continue Playing shows only the currently selected server's in-progress books — Morrow doesn't combine servers together.
 
 ## What does "Back up servers to iCloud" do?
 
