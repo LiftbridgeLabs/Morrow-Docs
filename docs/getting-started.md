@@ -15,9 +15,9 @@ You will need:
 
 Morrow has five tabs:
 
-- **Home** — choose which server you're using, see what you're currently listening to, a Continue Playing shelf of that server's in-progress books, and configurable shelves like Recently Added and Discover.
+- **Home** — choose which server you're using, see what you're currently listening to, a Continue Playing shelf of that server's in-progress books, an Up Next queue you control (add books, reorder, and the next one starts automatically when the current book finishes), and configurable shelves like Recently Added and Discover.
 - **Library** — browse the selected server's books, authors, and narrators, with search, sorting, and an A–Z index for jumping around a large library.
-- **Playing** — cover art and playback controls for the current book, followed by its full details: synopsis, ratings, chapters, file information, and read/finished status.
+- **Playing** — cover art and playback controls for the current book, followed by its full details: synopsis, ratings, chapters, file information, listening position, and read/finished status.
 - **Collections** — the selected server's series and collections (plus Audiobookshelf playlists or BookOrbit smart scopes, whichever it supports).
 - **Settings** — servers, playback cache, iCloud backup, and appearance.
 

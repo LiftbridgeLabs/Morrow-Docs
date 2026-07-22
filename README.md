@@ -36,7 +36,7 @@ Morrow is built around continuity — carrying stories forward across days, devi
 - **Listen offline, start instantly** — download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
 - **A player built for audiobooks** — chapters, playback speed, a sleep timer that can stop at the end of the chapter, lock-screen and background playback.
 - **Set up once, everywhere** — your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
-- **CarPlay** — browse and play your in-progress books from the car.
+- **CarPlay** — Home, Collections, a full A-Z Library browse, Offline, and Now Playing with chapter/speed/skip controls, right from the car.
 
 Screenshots are coming as the interface settles.
 

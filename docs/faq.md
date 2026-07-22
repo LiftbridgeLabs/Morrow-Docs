@@ -43,7 +43,7 @@ It stores your server list (including passwords) in your iCloud Keychain — the
 
 ## Does Morrow support CarPlay?
 
-Yes. Plug in and Morrow appears on the CarPlay home screen with a Continue Listening list — pick a book and the car's playback controls take over from there.
+Yes. Plug in (or connect wirelessly) and Morrow appears with tabs for Home (your Continue Listening and Up Next queue, plus cover art for whatever shelves you've set up on your phone's Home tab), Collections, a full A-Z Library browse, Offline downloads, and Now Playing — with chapter, speed, and skip controls built in. If you connect more than one server, switch between them right from Home.
 
 ## My server sits behind Cloudflare (or another proxy that requires a header)
 
