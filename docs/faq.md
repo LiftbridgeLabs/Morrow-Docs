@@ -45,6 +45,10 @@ It stores your server list (including passwords) in your iCloud Keychain — the
 
 Yes. Plug in (or connect wirelessly) and Morrow appears with tabs for Home (your Continue Listening and Up Next queue, plus cover art for whatever shelves you've set up on your phone's Home tab), Collections, a full A-Z Library browse, Offline downloads, and Now Playing — with chapter, speed, and skip controls built in. If you connect more than one server, switch between them right from Home.
 
+## Does Morrow have a Home Screen widget?
+
+Yes. Add it like any other widget (long-press your Home Screen → the **+** button → search "Morrow") in small or medium size. It shows the book you're currently listening to — cover, title, author, and progress — and tapping it opens Morrow straight to Now Playing.
+
 ## My server sits behind Cloudflare (or another proxy that requires a header)
 
 Open the server in **Settings**, scroll to **Advanced**, and add the headers your proxy expects. There is a one-tap **Cloudflare Access** preset that fills in `CF-Access-Client-Id` and `CF-Access-Client-Secret` for you — paste in the values from your Cloudflare service token. Header values are stored in the iOS Keychain, and Morrow sends them on everything it asks of your server, including audio streaming and downloads.

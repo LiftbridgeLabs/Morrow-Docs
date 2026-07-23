@@ -8,10 +8,11 @@ Public release notes will be recorded here once testing builds and production ve
 
 - BookOrbit and Audiobookshelf servers, multiple at once, with automatic re-authentication (Audiobookshelf supports API-key sign-in)
 - Library browsing with search, sorting, series, and collections; book details page with synopsis, community ratings, metadata, chapters, track information, and your current listening position
-- Home tab: your in-progress books on the currently selected server, with swipe-to-remove, plus a manual "Up Next" queue you can add books to and reorder — finishing a book automatically starts the next one queued
-- Read/finished status shown and editable per book, matching what each server actually supports — all 8 of BookOrbit's statuses (Unread, Want to Read, Reading, On Hold, Re-reading, Read, Skimmed, Abandoned), or Audiobookshelf's 3 (Not Started, In Progress, Finished)
+- Home tab: your in-progress books on the currently selected server, with swipe-to-remove, plus a manual "Up Next" queue you can add books to and reorder — finishing a book automatically starts the next one queued; Morrow Unlock adds an optional setting to automatically keep the next queued book downloaded before you get to it
+- A Home Screen widget shows the book you're currently listening to — cover, title, author, and progress — and taps straight into Now Playing
+- Read/finished status shown and editable per book, matching what each server actually supports — all 8 of BookOrbit's statuses (Unread, Want to Read, Reading, On Hold, Re-reading, Read, Skimmed, Abandoned), or Audiobookshelf's 3 (Not Started, In Progress, Finished) — each status has its own color, shown right in the picker
 - Your place is kept even when a book is re-imported on the server (for example, when automation upgrades it to a better-quality file): Morrow recognizes the same book and carries your position forward, asking first if it isn't certain
-- Full playback suite: background and lock-screen playback, chapters, playback speed, sleep timer (including end-of-chapter), skip controls
+- Full playback suite: background and lock-screen playback, chapters, playback speed, sleep timer (including end-of-chapter), and skip controls you can set to whatever amount you prefer — the on-screen scrubber spans the whole book, with an option to show time remaining and/or your progress as a percentage
 - Offline downloads that keep going in the background (and, for single-file books, even if you fully quit the app) — cancel one in progress with a swipe — plus an automatic playback cache with user-set size limit and cellular protection (nothing downloads over cellular unless enabled)
 - iCloud backup of the server list via iCloud Keychain, restorable on other devices
 - Ebook-only libraries and entries hidden (audiobook-focused)
