@@ -11,7 +11,7 @@
 ## The library is empty or incomplete
 
 - Confirm the expected audiobook library is visible to the same server account.
-- Morrow hides ebook-only libraries and ebook-only entries by design — it is an audiobook player. Books with both an ebook and audio files appear normally.
+- Morrow hides ebook-only libraries and ebook-only entries by design. It is an audiobook player. Books with both an ebook and audio files appear normally.
 - Confirm the server has finished scanning or processing the affected books.
 - Restart Morrow and try again.
 
@@ -28,20 +28,20 @@ The first load of a large library streams in from the server. After that, Morrow
 
 ## Playback stops when the app is closed or the screen locks
 
-Morrow plays in the background and on the lock screen. If audio stops when leaving the app, make sure you are on the latest build, then restart the device. Note that swiping the app away in the App Switcher (force quit) stops playback — that is standard iOS behavior for all audio apps.
+Morrow plays in the background and on the lock screen. If audio stops when leaving the app, make sure you are on the latest build, then restart the device. Note that swiping the app away in the App Switcher (force quit) stops playback. That is standard iOS behavior for all audio apps.
 
 ## A book is missing from Home's Continue Playing
 
 - Books appear after 60 seconds of playback; brief opens are ignored on purpose.
 - A book you removed from the list returns once you listen to it again.
 - BookOrbit has no complete "audio in progress" listing, so a book started only in the BookOrbit web player may not appear until you have played it in Morrow once.
-- Continue Playing only shows books from the server currently selected on Home — switch servers to see another server's in-progress books.
+- Continue Playing only shows books from the server currently selected on Home. Switch servers to see another server's in-progress books.
 
 ## Progress is not updating
 
 - Confirm the device has a working connection to the server.
 - Allow a moment for progress to synchronize after playback stops.
-- Each server you've added to Morrow is independent — progress on one server never appears on another.
+- Each server you've added to Morrow is independent. Progress on one server never appears on another.
 
 ## Downloads or caching won't start
 
@@ -50,13 +50,13 @@ Morrow plays in the background and on the lock screen. If audio stops when leavi
 
 ## Morrow keeps asking for my password
 
-Some servers rotate or expire passwords. When a server rejects the saved password, Morrow offers to re-enter it — you can dismiss that prompt and it will stay quiet until the next launch.
+Some servers rotate or expire passwords. When a server rejects the saved password, Morrow offers to re-enter it. You can dismiss that prompt and it will stay quiet until the next launch.
 
 For Audiobookshelf, the durable fix is an **API key**: open the server in **Settings**, switch **Sign in with** to **API Key**, and paste a key generated in the Audiobookshelf web UI under **Settings → API Keys**. API keys survive password changes.
 
 ## My server is behind Cloudflare and Morrow can't reach it
 
-Edge protection blocks requests that don't carry the right header, so the connection fails before your server ever sees it. Open the server in **Settings → Advanced** and add the required headers — there's a one-tap **Cloudflare Access** preset for the standard service-token pair.
+Edge protection blocks requests that don't carry the right header, so the connection fails before your server ever sees it. Open the server in **Settings → Advanced** and add the required headers. There's a one-tap **Cloudflare Access** preset for the standard service-token pair.
 
 ## Reporting a problem
 

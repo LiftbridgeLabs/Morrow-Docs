@@ -15,11 +15,11 @@ You will need:
 
 Morrow has five tabs:
 
-- **Home** — choose which server you're using, see what you're currently listening to, a Continue Playing shelf of that server's in-progress books, an Up Next queue you control (add books, reorder, and the next one starts automatically when the current book finishes), and configurable shelves like Recently Added and Discover.
-- **Library** — browse the selected server's books, authors, and narrators, with search, sorting, and an A–Z index for jumping around a large library.
-- **Playing** — cover art and playback controls for the current book, followed by its full details: synopsis, ratings, chapters, file information, listening position, and read/finished status.
-- **Collections** — the selected server's series and collections (plus Audiobookshelf playlists or BookOrbit smart scopes, whichever it supports).
-- **Settings** — servers, playback cache, iCloud backup, and appearance.
+- **Home**: choose which server you're using, see what you're currently listening to, a Continue Playing shelf of that server's in-progress books, an Up Next queue you control (add books, reorder, and the next one starts automatically when the current book finishes), and configurable shelves like Recently Added and Discover.
+- **Library**: browse the selected server's books, authors, and narrators, with search, sorting, and an A–Z index for jumping around a large library.
+- **Playing**: cover art and playback controls for the current book, followed by its full details: synopsis, ratings, chapters, file information, listening position, and read/finished status.
+- **Collections**: the selected server's series and collections (plus Audiobookshelf playlists or BookOrbit smart scopes, whichever it supports).
+- **Settings**: servers, playback cache, iCloud backup, and appearance.
 
 There is no login screen: Morrow connects to your servers in the background and re-authenticates automatically.
 
@@ -32,7 +32,7 @@ There is no login screen: Morrow connects to your servers in the background and 
 5. Enter your account credentials (Audiobookshelf also accepts an API key).
 6. Save. Select it on the **Home** tab and Morrow connects and loads your books.
 
-You can add more than one server and switch between them from the Home tab. Each server is independent — Morrow doesn't merge or sync anything between them, so switching servers shows that server's own library, listening progress, and status exactly as it is on that server.
+You can add more than one server and switch between them from the Home tab. Each server is independent. Morrow doesn't merge or sync anything between them, so switching servers shows that server's own library, listening progress, and status exactly as it is on that server.
 
 ## Server addresses
 

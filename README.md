@@ -7,7 +7,7 @@
 <p align="center"><strong>Every story has a Morrow.</strong></p>
 
 <p align="center">
-Morrow is a native iPhone and iPad audiobook player for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a> or <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a> servers.
+Morrow is a native audiobook player for iPhone, iPad, and (in early beta) Android, for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a> or <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a> servers.
 </p>
 
 <p align="center">
@@ -25,18 +25,18 @@ A **morrow** is what comes next: the following day, tomorrow, the continuation a
 
 Morrow is not named simply because it plays audiobooks. It is named because it protects what comes next. Stop listening today and Morrow remembers where you were. Change devices, or even lose a book to a server-side re-import, and your story can continue without starting over.
 
-> **Every story has a Morrow.**  
+> **Every story has a Morrow.**
 > Because every story deserves to continue.
 
-Morrow is built around continuity — carrying stories forward across days, devices, and the places your books live.
+Morrow is built around continuity, carrying stories forward across days, devices, and the places your books live.
 
 ## Why Morrow
 
-- **One app, every server you run** — connect multiple BookOrbit and Audiobookshelf servers at once, and switch between them from Home. Each one behaves exactly like itself — its own library, its own read/finished statuses (BookOrbit's full set or Audiobookshelf's), its own progress — nothing forced to look the same across servers.
-- **Listen offline, start instantly** — download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
-- **A player built for audiobooks** — chapters, playback speed, a sleep timer that can stop at the end of the chapter, lock-screen and background playback.
-- **Set up once, everywhere** — your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
-- **CarPlay** — Home, Collections, a full A-Z Library browse, Offline, and Now Playing with chapter/speed/skip controls, right from the car.
+- **One app, every server you run**: connect multiple BookOrbit and Audiobookshelf servers at once, and switch between them from Home. Each one behaves exactly like itself, its own library, its own read/finished statuses (BookOrbit's full set or Audiobookshelf's), its own progress. Nothing forced to look the same across servers.
+- **Listen offline, start instantly**: download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
+- **A player built for audiobooks**: chapters, playback speed, a sleep timer that can stop at the end of the chapter, lock-screen and background playback.
+- **Set up once, everywhere**: your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
+- **CarPlay**: Home, Collections, a full A-Z Library browse, Offline, and Now Playing with chapter/speed/skip controls, right from the car.
 
 Screenshots are coming as the interface settles.
 
@@ -44,11 +44,14 @@ Screenshots are coming as the interface settles.
 
 | | |
 |---|---|
-| Development | Active — private development builds |
-| TestFlight | Not yet available |
-| App Store | Not yet released |
+| iOS/iPadOS development | Active, shipping |
+| TestFlight | Available (external beta) |
+| App Store | Approved, awaiting release |
 | CarPlay | Implemented and shipping |
-| Requires | iOS 18 / iPadOS 18 or later |
+| Requires (iOS) | iOS 18 / iPadOS 18 or later |
+| Android development | Early beta, private development builds |
+| Google Play | Not yet available |
+| Requires (Android) | Android 8.0 (API 26) or later |
 
 ## Documentation
 
@@ -83,4 +86,4 @@ Morrow is developed independently by [Liftbridge Labs](https://github.com/Liftbr
 
 ---
 
-Morrow is a commercial, closed-source application. This public repository contains documentation and issue tracking only. Morrow does not provide, sell, or host audiobook content — it plays libraries from servers you operate.
+Morrow is a commercial, closed-source application. This public repository contains documentation and issue tracking only. Morrow does not provide, sell, or host audiobook content. It plays libraries from servers you operate.

@@ -16,8 +16,8 @@ Morrow can connect to an Audiobookshelf server using the same address and accoun
 3. Select **Audiobookshelf**.
 4. Enter the server address.
 5. Choose how to sign in:
-   - **Password** — your Audiobookshelf username and password.
-   - **API Key** — generate one in the Audiobookshelf web UI under **Settings → API Keys**. API keys keep working when the account password changes, which makes them the more durable choice.
+   - **Password**: your Audiobookshelf username and password.
+   - **API Key**: generate one in the Audiobookshelf web UI under **Settings → API Keys**. API keys keep working when the account password changes, which makes them the more durable choice.
 6. Save the connection.
 
 ## Problems connecting

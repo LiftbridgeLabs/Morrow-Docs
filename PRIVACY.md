@@ -4,23 +4,23 @@ Morrow connects your device directly to audiobook servers that you choose and op
 
 ## The short version
 
-Morrow has no accounts, no analytics, no ads, no tracking, and no third-party SDKs. Liftbridge Labs never receives your data. The only network traffic the app produces is between your device, your own servers, and — if you enable backup — Apple's iCloud Keychain.
+Morrow has no accounts, no analytics, no ads, no tracking, and no third-party SDKs. Liftbridge Labs never receives your data. The only network traffic the app produces is between your device, your own servers, and (if you enable backup) Apple's iCloud Keychain.
 
 ## Server credentials
 
-- Server passwords and Audiobookshelf API keys are stored in the iOS Keychain on your device — the same protected storage the system uses for saved passwords.
+- Server passwords and Audiobookshelf API keys are stored in the iOS Keychain on your device, the same protected storage the system uses for saved passwords.
 - Credentials leave the device only to authenticate with the server you configured them for (for example, a sign-in request to your own BookOrbit server). They are never sent anywhere else.
 
 ## iCloud backup (optional)
 
 - "Back up servers to iCloud" in Settings is **off by default**.
-- When enabled, it stores your server list — server name, address, username, sign-in type, and the password or API key — as a synchronized item in your **iCloud Keychain**, which Apple end-to-end encrypts. No file appears in iCloud Drive, and Liftbridge Labs cannot read it.
+- When enabled, it stores your server list (server name, address, username, sign-in type, and the password or API key) as a synchronized item in your **iCloud Keychain**, which Apple end-to-end encrypts. No file appears in iCloud Drive, and Liftbridge Labs cannot read it.
 - The backup persists if you delete the app (so a reinstall can restore your setup). Turning the toggle off deletes the backup from iCloud for all devices.
-- Separately, Morrow syncs a short list of recently played book identifiers (IDs and timestamps only — no titles or audio) through iCloud Keychain so your in-progress shelf matches across your devices.
+- Separately, Morrow syncs a short list of recently played book identifiers (IDs and timestamps only, no titles or audio) through iCloud Keychain so your in-progress shelf matches across your devices.
 
 ## Listening data
 
-- Playback positions and progress are stored **on your own servers**, using each server's normal progress features — the same records their web players use.
+- Playback positions and progress are stored **on your own servers**, using each server's normal progress features, the same records their web players use.
 - Recently played book identifiers are kept on the device (and synced as described above).
 
 ## On-device data
