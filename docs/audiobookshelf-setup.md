@@ -22,4 +22,4 @@ Morrow can connect to an Audiobookshelf server using the same address and accoun
 
 ## Problems connecting
 
-See [Troubleshooting](troubleshooting.md). When reporting a problem, include the Morrow version, iOS or iPadOS version, Audiobookshelf version, and the exact error text. Remove credentials and private tokens first.
+See [Troubleshooting](troubleshooting.md). When reporting a problem, include the Morrow version, device operating-system version, Audiobookshelf version, and the exact error text. Remove credentials and private tokens first.

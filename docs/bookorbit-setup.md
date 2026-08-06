@@ -20,4 +20,4 @@ Morrow can connect to a BookOrbit server using the server address and account cr
 
 ## Problems connecting
 
-See [Troubleshooting](troubleshooting.md). When reporting a problem, include the Morrow version, iOS or iPadOS version, BookOrbit version, and the exact error text. Remove credentials and private tokens first.
+See [Troubleshooting](troubleshooting.md). When reporting a problem, include the Morrow version, device operating-system version, BookOrbit version, and the exact error text. Remove credentials and private tokens first.

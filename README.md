@@ -7,7 +7,7 @@
 <p align="center"><strong>Every story has a Morrow.</strong></p>
 
 <p align="center">
-Morrow is a native audiobook player for iPhone, iPad, and (in early beta) Android, for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a> or <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a> servers.
+Morrow is a native audiobook player for iPhone, iPad, and Android, for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a> or <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a> servers.
 </p>
 
 <p align="center">
@@ -35,9 +35,9 @@ Morrow is built around continuity, carrying stories forward across days, devices
 
 - **One app, every server you run**: connect multiple BookOrbit and Audiobookshelf servers at once, and switch between them from Home. Each one behaves exactly like itself, its own library, its own read/finished statuses (BookOrbit's full set or Audiobookshelf's), its own progress. Nothing forced to look the same across servers.
 - **Listen offline, start instantly**: download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
-- **A player built for audiobooks**: chapters, playback speed, a sleep timer that can stop at the end of the chapter, lock-screen and background playback.
-- **Set up once, everywhere**: your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
-- **CarPlay**: Home, Collections, a full A-Z Library browse, Offline, and Now Playing with chapter/speed/skip controls, right from the car.
+- **A player built for audiobooks**: chapters, fine-grained playback speed, per-book listening history, a sleep timer that can stop at the end of the chapter, and lock-screen and background playback.
+- **Set up once, everywhere on Apple devices**: your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
+- **CarPlay and Android Auto**: Home, Collections, a full A-Z Library browse, Offline, Up Next, server switching, and native Now Playing controls in the car.
 
 Screenshots are coming as the interface settles.
 
@@ -50,8 +50,8 @@ Screenshots are coming as the interface settles.
 | App Store | Live |
 | CarPlay | Implemented and shipping |
 | Requires (iOS) | iOS 18 / iPadOS 18 or later |
-| Android development | Early beta, private development builds |
-| Google Play | Not yet available |
+| Android development | Active beta |
+| Google Play | Internal testing; closed testing in progress |
 | Requires (Android) | Android 8.0 (API 26) or later |
 
 ## Documentation

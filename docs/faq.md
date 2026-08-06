@@ -14,7 +14,7 @@ No. Morrow is a commercial, closed-source application. This repository contains 
 
 ## Which devices are supported?
 
-iPhone and iPad running iOS 18 / iPadOS 18 or later.
+iPhone and iPad running iOS 18 / iPadOS 18 or later, and Android devices running Android 8.0 or later.
 
 ## Can I connect more than one server?
 
@@ -27,7 +27,15 @@ Two ways:
 - **Downloads**: the download button on a book's details page (or the Playing tab) stores the whole book on the device until you remove it.
 - **Playback cache**: while a book streams, Morrow can automatically save it on the device so future starts and seeks are instant. The cache has a size limit you choose, removes the least-recently-played books first, and is fully visible in Settings.
 
+Once a full-book download is complete, that book plays without a server connection, including in airplane mode. If it finishes downloading while you are already listening, Morrow switches the loaded player to the local copy.
+
 By default nothing downloads over cellular; there is an explicit switch in Settings if you want to allow it.
+
+## Can I see where I started listening?
+
+Yes. Open the Playing screen and choose **History** to see each session's start time, starting and ending book positions, chapter, and actual listening duration. This is useful for finding your place after falling asleep.
+
+On Android, the current listening position is also checkpointed locally every five seconds. If Android force closes Morrow or ends its process for battery optimization, reopening the book restores the newer of the device checkpoint and the position saved on your server.
 
 ## Where did my ebooks go?
 
@@ -39,11 +47,11 @@ A book appears after 60 seconds of playback. Briefly opening a book doesn't shel
 
 ## What does "Back up servers to iCloud" do?
 
-It stores your server list (including passwords) in your iCloud Keychain, the same protected storage Apple uses for your saved passwords. You won't see a file in iCloud Drive. Another device signed into the same Apple Account can restore the whole setup from Settings, and the backup survives deleting the app.
+This Apple-only option stores your server list (including passwords) in your iCloud Keychain, the same protected storage Apple uses for your saved passwords. You won't see a file in iCloud Drive. Another device signed into the same Apple Account can restore the whole setup from Settings, and the backup survives deleting the app. Android secure backup is not currently enabled.
 
-## Does Morrow support CarPlay?
+## Does Morrow support CarPlay or Android Auto?
 
-Yes. Plug in (or connect wirelessly) and Morrow appears with tabs for Home (your Continue Listening and Up Next queue, plus cover art for whatever shelves you've set up on your phone's Home tab), Collections, a full A-Z Library browse, Offline downloads, and Now Playing, with chapter, speed, and skip controls built in. If you connect more than one server, switch between them right from Home.
+Yes. CarPlay provides Home, Collections, a full A-Z Library browse, Offline downloads, server switching, and native Now Playing controls. Android Auto/AAOS provides the equivalent Home, Collections, Library, Offline, Up Next, server-switching, and host-owned Now Playing experience.
 
 ## Does Morrow have a Home Screen widget?
 
@@ -51,7 +59,7 @@ Yes. Add it like any other widget (long-press your Home Screen → the **+** but
 
 ## My server sits behind Cloudflare (or another proxy that requires a header)
 
-Open the server in **Settings**, scroll to **Advanced**, and add the headers your proxy expects. There is a one-tap **Cloudflare Access** preset that fills in `CF-Access-Client-Id` and `CF-Access-Client-Secret` for you. Paste in the values from your Cloudflare service token. Header values are stored in the iOS Keychain, and Morrow sends them on everything it asks of your server, including audio streaming and downloads.
+Open the server in **Settings**, scroll to **Advanced**, and add the headers your proxy expects. There is a one-tap **Cloudflare Access** preset that fills in `CF-Access-Client-Id` and `CF-Access-Client-Secret` for you. Paste in the values from your Cloudflare service token. Header values are stored in protected platform storage (the iOS Keychain or Android Keystore-backed encrypted storage), and Morrow sends them on everything it asks of your server, including audio streaming and downloads.
 
 ## Can I use Morrow outside my home network?
 

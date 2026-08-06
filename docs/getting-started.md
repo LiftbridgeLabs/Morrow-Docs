@@ -6,7 +6,7 @@ Morrow connects to an audiobook server you already operate. It does not host or 
 
 You will need:
 
-- An iPhone or iPad running iOS 18 / iPadOS 18 or later
+- An iPhone or iPad running iOS 18 / iPadOS 18 or later, or an Android device running Android 8.0 or later
 - A working BookOrbit or Audiobookshelf server
 - The server address you use from your device
 - A valid account for that server (or, for Audiobookshelf, an API key)
@@ -19,7 +19,7 @@ Morrow has five tabs:
 - **Library**: browse the selected server's books, authors, and narrators, with search, sorting, and an A–Z index for jumping around a large library.
 - **Playing**: cover art and playback controls for the current book, followed by its full details: synopsis, ratings, chapters, file information, listening position, and read/finished status.
 - **Collections**: the selected server's series and collections (plus Audiobookshelf playlists or BookOrbit smart scopes, whichever it supports).
-- **Settings**: servers, playback cache, iCloud backup, and appearance.
+- **Settings**: servers, playback/download policy, appearance, and—in the Apple app—optional iCloud backup.
 
 There is no login screen: Morrow connects to your servers in the background and re-authenticates automatically.
 

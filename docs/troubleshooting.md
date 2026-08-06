@@ -2,7 +2,7 @@
 
 ## Morrow cannot connect to the server
 
-1. Open the same server address in Safari on the affected device.
+1. Open the same server address in a browser on the affected device.
 2. Confirm the address includes the correct scheme (`https://` or `http://`) and port.
 3. Confirm your username and password still work in the server web interface.
 4. Temporarily test from the same local network as the server.
@@ -28,7 +28,7 @@ The first load of a large library streams in from the server. After that, Morrow
 
 ## Playback stops when the app is closed or the screen locks
 
-Morrow plays in the background and on the lock screen. If audio stops when leaving the app, make sure you are on the latest build, then restart the device. Note that swiping the app away in the App Switcher (force quit) stops playback. That is standard iOS behavior for all audio apps.
+Morrow plays in the background and on the lock screen. If audio stops when leaving the app, make sure you are on the latest build, then restart the device. Explicitly force-stopping the app stops playback on both platforms; normal backgrounding should not.
 
 ## A book is missing from Home's Continue Playing
 
@@ -64,7 +64,7 @@ Use the [bug report form](https://github.com/LiftbridgeLabs/Morrow-Docs/issues/n
 
 - Morrow version and build
 - Device model
-- iOS or iPadOS version
+- Operating-system version (iOS, iPadOS, or Android)
 - Server type and version
 - Whether the problem occurs locally, remotely, or both
 - Exact steps to reproduce it
