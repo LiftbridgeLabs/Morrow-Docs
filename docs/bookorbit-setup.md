@@ -15,7 +15,10 @@ Morrow can connect to a BookOrbit server using the server address and account cr
 2. Choose **Add Server**.
 3. Select **BookOrbit**.
 4. Enter the server address.
-5. Enter your username and password.
+5. Choose how to sign in:
+   - **Password**: enter your BookOrbit username and password.
+   - **Shared account link**: paste the complete BookOrbit magic link (or just
+     its token) when your server provides password-less shared access.
 6. Save the connection.
 
 ## Problems connecting

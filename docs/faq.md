@@ -55,7 +55,21 @@ Yes. CarPlay provides Home, Collections, a full A-Z Library browse, Offline down
 
 ## Does Morrow have a Home Screen widget?
 
-Yes. Add it like any other widget (long-press your Home Screen → the **+** button → search "Morrow") in small or medium size. It shows the book you're currently listening to (cover, title, author, and progress) and tapping it opens Morrow straight to Now Playing.
+Yes. Add it like any other widget (long-press your Home Screen → the **+** button → search "Morrow") in small or medium size. It shows the book you're currently listening to (cover, title, author, and progress) and tapping it opens Morrow straight to Now Playing. The widget is available on both Apple and Android; transport controls remain host-native and non-interactive for now.
+
+## Can I choose a different playback speed for each book?
+
+Yes. The Settings playback speed is the default for new books. Changing speed
+from the Playing screen saves an override for that book, and marking the book
+finished clears its override. When chapter metadata is available, the Playing
+scrubber can also switch between the whole-book timeline and the current
+chapter.
+
+## Can I limit Genre Spotlight?
+
+Yes. In Settings → Home Shelves → Genre Spotlight Genres, leave **All Genres**
+enabled or choose a custom allow-list. Only genres with at least four books
+are eligible for that shelf.
 
 ## My server sits behind Cloudflare (or another proxy that requires a header)
 

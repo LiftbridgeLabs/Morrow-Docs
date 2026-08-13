@@ -9,7 +9,8 @@ You will need:
 - An iPhone or iPad running iOS 18 / iPadOS 18 or later, or an Android device running Android 8.0 or later
 - A working BookOrbit or Audiobookshelf server
 - The server address you use from your device
-- A valid account for that server (or, for Audiobookshelf, an API key)
+- A valid account for that server (or, for Audiobookshelf, an API key; BookOrbit
+  shared-account magic links are also supported)
 
 ## The app at a glance
 
@@ -29,7 +30,8 @@ There is no login screen: Morrow connects to your servers in the background and 
 2. Choose **Add Server**.
 3. Select **BookOrbit** or **Audiobookshelf**.
 4. Enter the server address exactly as you use it in a browser.
-5. Enter your account credentials (Audiobookshelf also accepts an API key).
+5. Enter your account credentials (Audiobookshelf also accepts an API key, and
+   BookOrbit accepts a shared-account magic link).
 6. Save. Select it on the **Home** tab and Morrow connects and loads your books.
 
 You can add more than one server and switch between them from the Home tab. Each server is independent. Morrow doesn't merge or sync anything between them, so switching servers shows that server's own library, listening progress, and status exactly as it is on that server.

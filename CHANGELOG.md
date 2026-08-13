@@ -8,11 +8,11 @@ Public release notes will be recorded here once testing builds and production ve
 
 - BookOrbit and Audiobookshelf servers, multiple at once, with automatic re-authentication (Audiobookshelf supports API-key sign-in; BookOrbit supports magic-link sign-in for password-less "Shared account" servers)
 - Library browsing with search, sorting, series, and collections; book details page with synopsis, community ratings, metadata, chapters, track information, and your current listening position
-- Home tab: your in-progress books on the currently selected server, with swipe-to-remove, plus a manual "Up Next" queue you can add books to and reorder. Finishing a book automatically starts the next one queued; Morrow Unlock adds an optional setting to automatically keep the next queued book downloaded before you get to it (iOS only for now)
-- A Home Screen widget shows the book you're currently listening to (cover, title, author, and progress) and taps straight into Now Playing (iOS only for now)
+- Home tab: your in-progress books on the currently selected server, with swipe-to-remove, plus a manual "Up Next" queue you can add books to and reorder. Finishing a book automatically starts the next one queued; Morrow Unlock adds an optional setting to automatically keep the next queued book downloaded before you get to it
+- A Home Screen widget shows the book you're currently listening to (cover, title, author, and progress) and taps straight into Now Playing on Apple and Android
 - Read/finished status shown and editable per book, matching what each server actually supports: all 8 of BookOrbit's statuses (Unread, Want to Read, Reading, On Hold, Re-reading, Read, Skimmed, Abandoned), or Audiobookshelf's 3 (Not Started, In Progress, Finished). Each status has its own color, shown right in the picker
 - Your place is kept even when a book is re-imported on the server (for example, when automation upgrades it to a better-quality file): Morrow recognizes the same book and carries your position forward, asking first if it isn't certain
-- Full playback suite: background and lock-screen playback, chapters, continuously adjustable playback speed from 0.50x to 2.50x in 0.05x steps, sleep timer (including end-of-chapter), and skip controls you can set to whatever amount you prefer. The on-screen scrubber spans the whole book, with an option to show time remaining and/or your progress as a percentage
+- Full playback suite: background and lock-screen playback, chapters, continuously adjustable playback speed from 0.50x to 2.50x in 0.05x steps, sleep timer (including end-of-chapter), and skip controls you can set to whatever amount you prefer. Playback speed has a default plus per-book overrides, and the scrubber can switch between the whole book and the current chapter when chapter metadata is available. The on-screen scrubber spans the whole book by default, with an option to show time remaining and/or your progress as a percentage
 - Offline downloads that keep going in the background (on Apple, a single-file download can even survive app termination), cancel one in progress with a swipe, plus an automatic playback cache with user-set size limit and cellular protection (nothing downloads over cellular unless enabled). A book that finishes downloading while already playing switches to its local copy, so it keeps playing in airplane mode. Progress made while listening offline is queued and pushed to your server the instant you're back online, so switching devices afterward picks up from where you actually left off
 - iCloud backup of the server list via iCloud Keychain, restorable on other devices
 - Ebook-only libraries and entries hidden (audiobook-focused)
@@ -23,6 +23,14 @@ Public release notes will be recorded here once testing builds and production ve
 - Statistics describe your listening across your devices (combined through your iCloud backup), with each server's own numbers shown separately
 - Per-book listening-session history records when each session began, its start and end positions, and how long you actually listened. On Apple devices, listening history is included in the iCloud backup so it survives a reinstall or a new device
 - Android keeps a crash-safe listening-position checkpoint on the device every five seconds and reconciles it with the server when reopening a book, preventing a force close or battery optimization from resetting your place
+- Genre Spotlight can be limited to a custom allow-list of eligible genres, while retaining an All Genres default
+- Android orders progress saves so a delayed older request cannot overwrite a newer listening position, and caches each server's library list for faster Android Auto startup on weak connections
+- When a server does not provide chapters, Morrow can recover common chapter marks embedded in M4B/M4A audio files
+- Six accent themes — Bronze, Ink, Forest, Plum, Rust, and Slate — provide coordinated light and dark appearances; all are available during beta testing
+- Android clearly distinguishes automatic playback caching from Keep Offline downloads and can promote the same transfer without downloading the book twice
+- Android uses consistent cover sizing across Home, Library, and Collections, with a larger phone grid and an alphabet index that no longer obscures the last book
+- Playing presents Chapters, Tracks, and History directly beneath the current book details; genres now appear before the synopsis, and an extra empty band above the bottom tabs has been removed
+- Android's light and dark launcher icons now preserve the complete M and its surrounding border instead of appearing zoomed or clipped by adaptive launcher masks
 
 ## Earlier
 
