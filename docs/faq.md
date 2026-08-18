@@ -41,11 +41,11 @@ On Android, the current listening position is also checkpointed locally every fi
 
 Morrow is an audiobook player, so ebook-only libraries and ebook-only entries are hidden. Books that have both an ebook and audio files appear normally.
 
-## How does Home's Continue Playing decide what's "in progress"?
+## How does Home's Continue Listening decide what's "in progress"?
 
-A book appears after 60 seconds of playback. Briefly opening a book doesn't shelve it, and doesn't create a progress record on your server. Remove a book from the list with the context menu; it returns if you listen to it again. Continue Playing shows only the currently selected server's in-progress books. Morrow doesn't combine servers together.
+A book appears after 60 seconds of playback. Briefly opening a book doesn't shelve it, and doesn't create a progress record on your server. Remove a book from the list with the context menu; it returns if you listen to it again. Continue Listening shows only the currently selected server's in-progress books. Morrow doesn't combine servers together.
 
-On Audiobookshelf, removing a book from Continue Playing is saved to your server, so it stays removed everywhere you sign in, including Audiobookshelf's own web player. On BookOrbit, which has no equivalent server-side option, the removal syncs between your own Apple devices but won't reach an Android device or BookOrbit's own web interface.
+On Audiobookshelf, removing a book from Continue Listening is saved to your server, so it stays removed everywhere you sign in, including Audiobookshelf's own web player. On BookOrbit, which has no equivalent server-side option, the removal syncs between your own Apple devices but won't reach an Android device or BookOrbit's own web interface.
 
 ## What does "Back up servers to iCloud" do?
 

@@ -32,10 +32,10 @@ Public release notes will be recorded here once testing builds and production ve
 - Playing presents Chapters, Tracks, and History directly beneath the current book details; genres now appear before the synopsis, and an extra empty band above the bottom tabs has been removed
 - Android's light and dark launcher icons now preserve the complete M and its surrounding border instead of appearing zoomed or clipped by adaptive launcher masks
 - Switching from one book directly to another no longer risks saving the wrong position if playback is interrupted mid-switch, protecting real listening progress
-- Continue Playing keeps showing your in-progress books through a spotty connection instead of going blank on a failed refresh, on both the phone and CarPlay
+- Continue Listening keeps showing your in-progress books through a spotty connection instead of going blank on a failed refresh, on both the phone and CarPlay
 - Chapter numbers on the lock screen and in CarPlay now stay in sync the instant you jump to a new chapter, including when that chapter is in a different audio file
-- Removing a book from Continue Playing on one Apple device now carries over to your other Apple devices instead of staying local to the one you removed it on
-- Android now supports removing books from Continue Playing too; Audiobookshelf stores the choice on the server so it is shared with Apple and the Audiobookshelf web app, while BookOrbit keeps it on the Android device because that server has no matching field
+- Removing a book from Continue Listening on one Apple device now carries over to your other Apple devices instead of staying local to the one you removed it on
+- Android now supports removing books from Continue Listening too; Audiobookshelf stores the choice on the server so it is shared with Apple and the Audiobookshelf web app, while BookOrbit keeps it on the Android device because that server has no matching field
 - Android protects listening progress throughout a book switch and will not fall back to an old local position when a live server progress request merely failed
 - Android Home, Library, and Android Auto retain their last confirmed content through temporary refresh failures, and changing the active server immediately refreshes the connected Android Auto browse tree
 - Android's Recent Series and Newest Authors shelves now use full-library date-added history instead of echoing Recently Added; Library also adds Date Added ordering, reversible sort direction, downloaded-only filtering, and provider-native read-status filters

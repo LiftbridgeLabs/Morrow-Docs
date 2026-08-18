@@ -30,12 +30,12 @@ The first load of a large library streams in from the server. After that, Morrow
 
 Morrow plays in the background and on the lock screen. If audio stops when leaving the app, make sure you are on the latest build, then restart the device. Explicitly force-stopping the app stops playback on both platforms; normal backgrounding should not.
 
-## A book is missing from Home's Continue Playing
+## A book is missing from Home's Continue Listening
 
 - Books appear after 60 seconds of playback; brief opens are ignored on purpose.
 - A book you removed from the list returns once you listen to it again.
 - BookOrbit has no complete "audio in progress" listing, so a book started only in the BookOrbit web player may not appear until you have played it in Morrow once.
-- Continue Playing only shows books from the server currently selected on Home. Switch servers to see another server's in-progress books.
+- Continue Listening only shows books from the server currently selected on Home. Switch servers to see another server's in-progress books.
 
 ## Progress is not updating
 
