@@ -31,6 +31,10 @@ Public release notes will be recorded here once testing builds and production ve
 - Android uses consistent cover sizing across Home, Library, and Collections, with a larger phone grid and an alphabet index that no longer obscures the last book
 - Playing presents Chapters, Tracks, and History directly beneath the current book details; genres now appear before the synopsis, and an extra empty band above the bottom tabs has been removed
 - Android's light and dark launcher icons now preserve the complete M and its surrounding border instead of appearing zoomed or clipped by adaptive launcher masks
+- Switching from one book directly to another no longer risks saving the wrong position if playback is interrupted mid-switch, protecting real listening progress
+- Continue Playing keeps showing your in-progress books through a spotty connection instead of going blank on a failed refresh, on both the phone and CarPlay
+- Chapter numbers on the lock screen and in CarPlay now stay in sync the instant you jump to a new chapter, including when that chapter is in a different audio file
+- Removing a book from Continue Playing on one Apple device now carries over to your other Apple devices instead of staying local to the one you removed it on
 
 ## Earlier
 
