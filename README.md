@@ -7,7 +7,7 @@
 <p align="center"><strong>Every story has a Morrow.</strong></p>
 
 <p align="center">
-Morrow is a native audiobook player for iPhone, iPad, and Android, for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a> or <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a> servers.
+Morrow is a native audiobook player for iPhone, iPad, and Android, for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a>, <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a>, or <a href="docs/booklore-setup.md">Booklore</a> servers.
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Morrow is built around continuity, carrying stories forward across days, devices
 
 ## Why Morrow
 
-- **One app, every server you run**: connect multiple BookOrbit and Audiobookshelf servers at once, and switch between them from Home. Each one behaves exactly like itself, its own library, its own read/finished statuses (BookOrbit's full set or Audiobookshelf's), its own progress. Nothing forced to look the same across servers.
+- **One app, every server you run**: connect multiple BookOrbit and Audiobookshelf servers at once (iPhone, iPad, and Android), plus Booklore (iPhone and iPad for now), and switch between them from Home. Each one behaves exactly like itself, its own library, its own read/finished statuses, its own progress. Nothing forced to look the same across servers.
 - **Listen offline, start instantly**: download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
 - **A player built for audiobooks**: chapters, fine-grained playback speed, per-book listening history, a sleep timer that can stop at the end of the chapter, and lock-screen and background playback.
 - **Set up once, everywhere on Apple devices**: your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
@@ -59,6 +59,7 @@ Screenshots are coming as the interface settles.
 - [Getting started](docs/getting-started.md)
 - [BookOrbit setup](docs/bookorbit-setup.md)
 - [Audiobookshelf setup](docs/audiobookshelf-setup.md)
+- [Booklore setup](docs/booklore-setup.md)
 - [Frequently asked questions](docs/faq.md)
 - [Troubleshooting](docs/troubleshooting.md)
 

@@ -6,7 +6,7 @@ Public release notes will be recorded here once testing builds and production ve
 
 ## Unreleased: current development build
 
-- BookOrbit and Audiobookshelf servers, multiple at once, with automatic re-authentication (Audiobookshelf supports API-key sign-in; BookOrbit supports magic-link sign-in for password-less "Shared account" servers)
+- BookOrbit and Audiobookshelf servers, multiple at once, with automatic re-authentication (Audiobookshelf supports API-key sign-in; BookOrbit supports magic-link sign-in for password-less "Shared account" servers). On iPhone and iPad, Booklore is also supported as a server type (username and password sign-in)
 - Library browsing with search, sorting, series, and collections; book details page with synopsis, community ratings, metadata, chapters, track information, and your current listening position
 - Home tab: your in-progress books on the currently selected server, with swipe-to-remove, plus a manual "Up Next" queue you can add books to and reorder. Finishing a book automatically starts the next one queued; Morrow Unlock adds an optional setting to automatically keep the next queued book downloaded before you get to it
 - A Home Screen widget shows the book you're currently listening to (cover, title, author, and progress) and taps straight into Now Playing on Apple and Android
