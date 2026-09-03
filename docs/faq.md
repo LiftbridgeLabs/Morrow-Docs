@@ -57,9 +57,9 @@ Two different things sync, by two different routes, and it's worth knowing which
 
 **Your place in a book syncs everywhere.** Playback progress is stored on your own server, so an iPhone, iPad, Apple TV, Android device, and your server's own web player all see the same position. Stop on one, pick up on another.
 
-**Everything else is Apple-only.** Your Up Next queue, the books you swipe off Continue Listening, your recently played list, per-book playback speed, Home shelf arrangement, and listening history sync between your iPhone, iPad, and Apple TV through your private iCloud database. They do not reach Android, because iCloud is not available there.
+**Everything else syncs within one platform, not between platforms.** Your Up Next queue, the books you swipe off Continue Listening, your recently played list, per-book playback speed, Home shelf arrangement, and listening history sync between your iPhone, iPad, and Apple TV through your private iCloud database. Android keeps its own copies on the device.
 
-So if you use an iPhone and an Android device, you'll keep your place in a book across both, but each will have its own separate Up Next list. There's no server-side queue in BookOrbit or Audiobookshelf for Morrow to use instead.
+So if you use an iPhone and an Android device, you'll keep your place in a book across both, but each will have its own separate Up Next list. Your servers don't offer a queue Morrow could store there instead, so these lists live with the platform rather than with the library.
 
 The Apple-side sync is controlled by the "Sync Servers and Up Next" setting and is off until you turn it on. Everything it stores is end-to-end encrypted, readable only by your own devices.
 

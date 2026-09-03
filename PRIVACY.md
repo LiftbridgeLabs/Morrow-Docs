@@ -19,9 +19,9 @@ Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or adver
 - The backup persists if you delete the app (so a reinstall can restore your setup). Turning the toggle off deletes the backup from iCloud for all devices.
 - Separately, the Apple app syncs a short list of recently played book identifiers (IDs and timestamps only, no titles or audio) and listening history through iCloud Keychain so those records can follow your Apple devices. Android secure backup is currently disabled.
 
-## Sync between your Apple devices (optional, Apple only)
+## Sync between your Apple devices (optional)
 
-The same "Sync Servers and Up Next" setting that controls the iCloud backup above also keeps a small amount of state in step between your Apple devices, including Apple TV. iCloud Keychain alone cannot do this, because Apple TV has no access to it.
+The same "Sync Servers and Up Next" setting that controls the iCloud backup above also keeps a small amount of state in step between your Apple devices, including Apple TV. iCloud Keychain alone cannot do this, because Apple TV has no access to it. This covers Apple devices only; Android keeps the equivalent records on the device.
 
 - This uses your **private iCloud database (CloudKit)**, in your own iCloud account. Liftbridge Labs has no access to it and receives nothing.
 - Everything Morrow stores there is written to **end-to-end encrypted fields**, so only your own devices can read it. That includes your server passwords and API keys, your server addresses and usernames, and every list described below. Apple stores it but cannot read it.
