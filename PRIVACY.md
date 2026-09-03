@@ -24,7 +24,7 @@ Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or adver
 The same "Sync Servers and Up Next" setting that controls the iCloud backup above also keeps a small amount of state in step between your Apple devices, including Apple TV. iCloud Keychain alone cannot do this, because Apple TV has no access to it.
 
 - This uses your **private iCloud database (CloudKit)**, in your own iCloud account. Liftbridge Labs has no access to it and receives nothing.
-- What is kept there: your server list (as described above), your Up Next list, which books you have swiped off Continue Listening, and the short recently played list. Book identifiers, titles, authors, and timestamps only. No audio, no account credentials beyond the server sign-in details already covered above.
+- What is kept there: your server list (as described above), your Up Next list, which books you have swiped off Continue Listening, your short recently played list, your per-book playback speed, your Home shelf arrangement, and your per-book listening history. Book identifiers, titles, authors, and timestamps only. No audio, no account credentials beyond the server sign-in details already covered above.
 - Devices check for changes while the app is open, and when it is opened or closed. Nothing is checked while the app is in the background, including during background audio playback.
 - Turning the setting off deletes these records from iCloud.
 
