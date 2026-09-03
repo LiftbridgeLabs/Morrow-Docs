@@ -21,6 +21,7 @@ Public release notes will be recorded here once testing builds and production ve
 - Removing a book from Continue Listening now clears that record once you listen to the book again, rather than leaving it stored indefinitely
 - CarPlay shows one set of skip buttons instead of two, and they follow the skip amounts you chose rather than a fixed 15 and 30 seconds
 - CarPlay no longer briefly shows another server's books when you start the car
+- Driving away from home no longer leaves Morrow waiting. If you have a home address set for a server and it drops out of range mid-session, Morrow now gives up on it after a few seconds and switches to that server's regular address, instead of waiting minutes. Previously this could make taps in CarPlay appear to do nothing for several minutes and then all take effect at once, pausing and switching books
 - The Chapter and Book scrubber toggle keeps working on books loaded over a weak connection
 - Ebook-only libraries and entries hidden (audiobook-focused)
 - Light/dark appearance with matching app icon
