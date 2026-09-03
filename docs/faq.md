@@ -51,6 +51,18 @@ On Audiobookshelf, removing a book from Continue Listening is saved to your serv
 
 This Apple-only option stores your server list (including passwords) in your iCloud Keychain, the same protected storage Apple uses for your saved passwords. You won't see a file in iCloud Drive. Another device signed into the same Apple Account can restore the whole setup from Settings, and the backup survives deleting the app. Android secure backup is not currently enabled.
 
+## What syncs between my devices?
+
+Two different things sync, by two different routes, and it's worth knowing which is which.
+
+**Your place in a book syncs everywhere.** Playback progress is stored on your own server, so an iPhone, iPad, Apple TV, Android device, and your server's own web player all see the same position. Stop on one, pick up on another.
+
+**Everything else is Apple-only.** Your Up Next queue, the books you swipe off Continue Listening, your recently played list, per-book playback speed, Home shelf arrangement, and listening history sync between your iPhone, iPad, and Apple TV through your private iCloud database. They do not reach Android, because iCloud is not available there.
+
+So if you use an iPhone and an Android device, you'll keep your place in a book across both, but each will have its own separate Up Next list. There's no server-side queue in BookOrbit or Audiobookshelf for Morrow to use instead.
+
+The Apple-side sync is controlled by the "Sync Servers and Up Next" setting and is off until you turn it on. Everything it stores is end-to-end encrypted, readable only by your own devices.
+
 ## Does Morrow support CarPlay or Android Auto?
 
 Yes. CarPlay provides Home, Collections, a full A-Z Library browse, Offline downloads, server switching, and native Now Playing controls. Android Auto/AAOS provides the equivalent Home, Collections, Library, Offline, Up Next, server-switching, and host-owned Now Playing experience.
