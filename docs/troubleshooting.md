@@ -58,6 +58,16 @@ For Audiobookshelf, the durable fix is an **API key**: open the server in **Sett
 
 Edge protection blocks requests that don't carry the right header, so the connection fails before your server ever sees it. Open the server in **Settings → Advanced** and add the required headers. There's a one-tap **Cloudflare Access** preset for the standard service-token pair.
 
+Three things to check when it still won't connect:
+
+**Paste only the token itself.** Each field takes the bare value and nothing else. Copying credentials out of the Cloudflare dashboard can pick up the header name or a label along with the value, and Morrow sends exactly what you give it, so `CF-Access-Client-Secret: abc123` in the value field is rejected at the edge. Tap the eye icon on each field and confirm there is no header name, label, or stray space.
+
+**Set the SSL/TLS encryption mode to Full or Full (strict), not Flexible.** On Flexible, Cloudflare contacts your server over plain HTTP, and a reverse proxy that requires HTTPS will redirect it straight back, looping until the request fails. If your server's own web interface also fails or loops in a browser at the same address, this is why, and it is a Cloudflare setting rather than anything in Morrow.
+
+**Set the Access policy action to Service Auth.** Service tokens only work under that action. Cloudflare warns about this in the dashboard when the policy uses only service token selectors.
+
+These headers work the same way for every server type Morrow supports.
+
 ## Reporting a problem
 
 Use the [bug report form](https://github.com/LiftbridgeLabs/Morrow-Docs/issues/new?template=bug-report.yml) and include:
