@@ -33,7 +33,7 @@ Morrow is built around continuity, carrying stories forward across days, devices
 
 ## Why Morrow
 
-- **One app, every server you run**: connect multiple BookOrbit, Audiobookshelf, and Grimmory servers at once on iPhone, iPad, and Android, and switch between them from Home. Each one behaves exactly like itself, its own library, its own read/finished statuses, its own progress. Nothing forced to look the same across servers.
+- **One app, every server you run**: works with BookOrbit, Audiobookshelf, and Grimmory on iPhone, iPad, and Android. The free version connects one server; Morrow Unlock connects as many as you like and switches between them from Home. Each one behaves exactly like itself, its own library, its own read/finished statuses, its own progress. Nothing forced to look the same across servers.
 - **Listen offline, start instantly**: download books to keep, and let the automatic playback cache save what you're streaming so the next start or seek is instant. Nothing touches cellular data unless you allow it.
 - **A player built for audiobooks**: chapters, fine-grained playback speed, per-book listening history, a sleep timer that can stop at the end of the chapter, and lock-screen and background playback.
 - **Set up once, everywhere on Apple devices**: your server configuration can back up to iCloud Keychain and restore on a new device in one tap.

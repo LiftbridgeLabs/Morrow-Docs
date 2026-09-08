@@ -36,7 +36,7 @@ There is no login screen: Morrow connects to your servers in the background and 
    password.
 6. Save. Select it on the **Home** tab and Morrow connects and loads your books.
 
-You can add more than one server and switch between them from the Home tab. Each server is independent. Morrow doesn't merge or sync anything between them, so switching servers shows that server's own library, listening progress, and status exactly as it is on that server.
+The free version connects to one server; Morrow Unlock lets you add more and switch between them from the Home tab. Either way, each server is independent. Morrow doesn't merge or sync anything between them, so switching servers shows that server's own library, listening progress, and status exactly as it is on that server.
 
 ## Server addresses
 

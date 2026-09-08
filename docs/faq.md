@@ -18,7 +18,15 @@ iPhone and iPad running iOS 18 / iPadOS 18 or later, and Android devices running
 
 ## Can I connect more than one server?
 
-Yes. Servers are added on the Settings tab and selected on the Home tab. Each server is completely independent. Morrow doesn't merge, combine, or sync anything between them, even if the same audiobook exists on more than one. Switching servers shows that server's own library, progress, and status exactly as it is there.
+The free version connects to one server. Morrow Unlock removes that limit, so you can add several and switch between them from the Home tab.
+
+However many you connect, each server is completely independent. Morrow doesn't merge, combine, or sync anything between them, even if the same audiobook exists on more than one. Switching servers shows that server's own library, progress, and status exactly as it is there.
+
+## What is free, and what does Morrow Unlock add?
+
+The free version is a complete player: playback with chapters, adjustable speed, and a sleep timer; CarPlay or Android Auto, the Home Screen widget, and lock-screen controls; the Up Next queue with auto-advance; one connected server; and up to three downloaded books.
+
+Morrow Unlock is a one-time purchase (with an Individual and a Family option) that adds unlimited downloads, automatically keeping the next queued book downloaded, the accent color themes, and unlimited connected servers with switching between them. There is also an optional tip jar. Nothing is a subscription.
 
 ## Does Morrow work offline?
 
