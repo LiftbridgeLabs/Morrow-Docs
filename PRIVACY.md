@@ -55,4 +55,4 @@ The same "Sync Servers and Up Next" setting that controls the iCloud backup abov
 
 ## Contact
 
-For privacy questions, email **liftbridgelabs@gmail.com** or open a support issue (never include passwords, tokens, or private URLs in a public issue).
+For privacy questions, email **support@liftbridgelabs.app** or open a support issue (never include passwords, tokens, or private URLs in a public issue).
