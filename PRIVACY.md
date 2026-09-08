@@ -1,6 +1,6 @@
 # Privacy
 
-Morrow connects your device directly to audiobook servers that you choose and operate. This page describes exactly what the app stores and where, based on the current implementation. It will be finalized as the formal App Store privacy policy before public release.
+Morrow connects your device directly to audiobook servers that you choose and operate. This page describes exactly what the app stores and where, based on the current implementation, and is kept in step with the formal App Store privacy policy.
 
 ## The short version
 
@@ -17,7 +17,7 @@ Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or adver
 - "Back up servers to iCloud" in Settings is **off by default**.
 - When enabled, it stores your server list (server name, address, username, sign-in type, and the password or API key) as a synchronized item in your **iCloud Keychain**, which Apple end-to-end encrypts. No file appears in iCloud Drive, and Liftbridge Labs cannot read it.
 - The backup persists if you delete the app (so a reinstall can restore your setup). Turning the toggle off deletes the backup from iCloud for all devices.
-- Separately, the Apple app syncs a short list of recently played book identifiers (IDs and timestamps only, no titles or audio) and listening history through iCloud Keychain so those records can follow your Apple devices. Android secure backup is currently disabled.
+- This iCloud Keychain backup holds the server list only. The recently played list, listening history, and other cross-device state are handled separately, through your private iCloud database, as described in the next section. Android secure backup is currently disabled.
 
 ## Sync between your Apple devices (optional)
 

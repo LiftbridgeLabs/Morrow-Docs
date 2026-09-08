@@ -1,15 +1,13 @@
 # Release notes
 
-Morrow is currently in active development and has not yet had a public App Store release.
+Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Android app is in Google Play testing. Detailed, version-numbered release notes will be added here as public releases roll out; the list below summarizes what the current builds do.
 
-Public release notes will be recorded here once testing builds and production versions begin shipping.
+## Current builds
 
-## Unreleased: current development build
-
-- BookOrbit and Audiobookshelf servers, multiple at once, with automatic re-authentication (Audiobookshelf supports API-key sign-in; BookOrbit supports magic-link sign-in for password-less "Shared account" servers). On iPhone and iPad, Booklore is also supported as a server type (username and password sign-in)
+- BookOrbit, Audiobookshelf, and Grimmory servers on iPhone, iPad, and Android, multiple at once, with automatic re-authentication (Audiobookshelf supports API-key sign-in; BookOrbit supports magic-link sign-in for password-less "Shared account" servers; Grimmory uses username and password, and compatible legacy Booklore servers connect as the Grimmory type)
 - Library browsing with search, sorting, series, and collections; book details page with synopsis, community ratings, metadata, chapters, track information, and your current listening position
 - Home tab: your in-progress books on the currently selected server, with swipe-to-remove, plus a manual "Up Next" queue you can add books to and reorder. Finishing a book automatically starts the next one queued; Morrow Unlock adds an optional setting to automatically keep the next queued book downloaded before you get to it
-- A Home Screen widget shows the book you're currently listening to (cover, title, author, and progress) and taps straight into Now Playing on Apple and Android
+- A Home Screen widget on Apple and Android shows the book you're currently listening to (cover, title, author, and progress), has working play/pause and skip buttons, and taps straight into Now Playing. On Apple it comes in small, medium, and large sizes, plus a separate monthly listening-stats widget and a Control Center / Action Button control that resumes your last book
 - Read/finished status shown and editable per book, matching what each server actually supports: all 8 of BookOrbit's statuses (Unread, Want to Read, Reading, On Hold, Re-reading, Read, Skimmed, Abandoned), or Audiobookshelf's 3 (Not Started, In Progress, Finished). Each status has its own color, shown right in the picker
 - Your place is kept even when a book is re-imported on the server (for example, when automation upgrades it to a better-quality file): Morrow recognizes the same book and carries your position forward, asking first if it isn't certain
 - Full playback suite: background and lock-screen playback, chapters, continuously adjustable playback speed from 0.50x to 2.50x in 0.05x steps, sleep timer (including end-of-chapter), and skip controls you can set to whatever amount you prefer. Playback speed has a default plus per-book overrides, and the scrubber can switch between the whole book and the current chapter when chapter metadata is available. The on-screen scrubber spans the whole book by default, with an option to show time remaining and/or your progress as a percentage

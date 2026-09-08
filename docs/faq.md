@@ -2,7 +2,7 @@
 
 ## Is Morrow an audiobook server?
 
-No. Morrow is a player that connects to a BookOrbit or Audiobookshelf server you already operate.
+No. Morrow is a player that connects to a BookOrbit, Audiobookshelf, or Grimmory server you already operate.
 
 ## Does Morrow include audiobooks?
 
@@ -69,7 +69,9 @@ Yes. CarPlay provides Home, Collections, a full A-Z Library browse, Offline down
 
 ## Does Morrow have a Home Screen widget?
 
-Yes. Add it like any other widget (long-press your Home Screen → the **+** button → search "Morrow") in small or medium size. It shows the book you're currently listening to (cover, title, author, and progress) and tapping it opens Morrow straight to Now Playing. The widget is available on both Apple and Android; transport controls remain host-native and non-interactive for now.
+Yes, on both Apple and Android. Add it like any other widget (long-press the Home Screen, tap **+**, search "Morrow"). The Now Playing widget shows the book you're currently listening to (cover, title, author, and progress), has working play/pause and skip buttons, and taps through to Now Playing in the app.
+
+On Apple it comes in small, medium, and large sizes; the larger sizes also let you jump straight back into a recent book. Apple additionally has a monthly listening-stats widget and a Control Center / Action Button control that resumes your last book.
 
 ## Can I choose a different playback speed for each book?
 
@@ -91,7 +93,7 @@ Open the server in **Settings**, scroll to **Advanced**, and add the headers you
 
 ## Can I use Morrow outside my home network?
 
-Yes, provided your BookOrbit or Audiobookshelf server is safely reachable from your device. HTTPS through a properly configured reverse proxy is recommended.
+Yes, provided your server is safely reachable from your device. HTTPS through a properly configured reverse proxy is recommended.
 
 ## Where do I report a bug?
 

@@ -1,6 +1,6 @@
 # Support policy
 
-Morrow support is provided through this repository's issue tracker while the application is in development.
+Morrow support is provided through this repository's issue tracker.
 
 ## Before opening an issue
 
@@ -18,4 +18,4 @@ Do not post passwords, access tokens, API keys, private server addresses, person
 
 ## Scope
 
-Support covers Morrow itself. Assistance with operating systems, reverse proxies, networking, certificates, BookOrbit administration, and Audiobookshelf administration may be limited to information directly relevant to Morrow's connection or playback behavior.
+Support covers Morrow itself. Assistance with operating systems, reverse proxies, networking, certificates, and server administration (BookOrbit, Audiobookshelf, or Grimmory) may be limited to information directly relevant to Morrow's connection or playback behavior.

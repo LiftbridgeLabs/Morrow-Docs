@@ -7,11 +7,11 @@ Morrow connects to an audiobook server you already operate. It does not host or 
 You will need:
 
 - An iPhone or iPad running iOS 18 / iPadOS 18 or later, or an Android device running Android 8.0 or later
-- A working BookOrbit or Audiobookshelf server, or (on iPhone and iPad) a Booklore server
+- A working BookOrbit, Audiobookshelf, or Grimmory server (a compatible legacy Booklore server also works as the Grimmory type)
 - The server address you use from your device
-- A valid account for that server (or, for Audiobookshelf, an API key; BookOrbit
-  shared-account magic links are also supported; Booklore uses username and
-  password only)
+- A valid account for that server. Audiobookshelf also accepts an API key,
+  BookOrbit also accepts a shared-account magic link, and Grimmory uses a
+  username and password
 
 ## The app at a glance
 
@@ -20,8 +20,8 @@ Morrow has five tabs:
 - **Home**: choose which server you're using, see what you're currently listening to, a Continue Listening shelf of that server's in-progress books, an Up Next queue you control (add books, reorder, and the next one starts automatically when the current book finishes), and configurable shelves like Recently Added and Discover.
 - **Library**: browse the selected server's books, authors, and narrators, with search, sorting, and an A–Z index for jumping around a large library.
 - **Playing**: cover art and playback controls for the current book, followed by its full details: synopsis, ratings, chapters, file information, listening position, and read/finished status.
-- **Collections**: the selected server's series and collections (plus Audiobookshelf playlists or BookOrbit smart scopes, whichever it supports).
-- **Settings**: servers, playback/download policy, appearance, and—in the Apple app—optional iCloud backup.
+- **Collections**: the selected server's series and collections, plus Audiobookshelf playlists or BookOrbit scopes when the server has them.
+- **Settings**: servers, playback and download policy, appearance, and, in the Apple app, optional iCloud backup.
 
 There is no login screen: Morrow connects to your servers in the background and re-authenticates automatically.
 
@@ -29,11 +29,11 @@ There is no login screen: Morrow connects to your servers in the background and 
 
 1. Open Morrow and go to the **Settings** tab.
 2. Choose **Add Server**.
-3. Select **BookOrbit**, **Audiobookshelf**, or (iPhone and iPad only, for now) **Booklore**.
+3. Select **BookOrbit**, **Audiobookshelf**, or **Grimmory**.
 4. Enter the server address exactly as you use it in a browser.
-5. Enter your account credentials (Audiobookshelf also accepts an API key, and
-   BookOrbit accepts a shared-account magic link; Booklore uses username and
-   password only).
+5. Enter your account credentials. Audiobookshelf also accepts an API key, and
+   BookOrbit accepts a shared-account magic link. Grimmory uses a username and
+   password.
 6. Save. Select it on the **Home** tab and Morrow connects and loads your books.
 
 You can add more than one server and switch between them from the Home tab. Each server is independent. Morrow doesn't merge or sync anything between them, so switching servers shows that server's own library, listening progress, and status exactly as it is on that server.
@@ -55,6 +55,6 @@ Do not post private server addresses, access tokens, passwords, or screenshots c
 
 - [BookOrbit setup](bookorbit-setup.md)
 - [Audiobookshelf setup](audiobookshelf-setup.md)
-- [Booklore setup](booklore-setup.md)
+- [Grimmory setup](grimmory-setup.md)
 - [Frequently asked questions](faq.md)
 - [Troubleshooting](troubleshooting.md)
