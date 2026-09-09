@@ -45,6 +45,8 @@ Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Andro
 - Android now supports removing books from Continue Listening too; Audiobookshelf stores the choice on the server so it is shared with Apple and the Audiobookshelf web app, while BookOrbit keeps it on the Android device because that server has no matching field
 - Android protects listening progress throughout a book switch and will not fall back to an old local position when a live server progress request merely failed
 - Android Home, Library, and Android Auto retain their last confirmed content through temporary refresh failures, and changing the active server immediately refreshes the connected Android Auto browse tree
+- Android Auto's top-level browse works again. Since the September 4 Android build, opening Morrow on a head unit could fail to list Home, Library, and Offline at all; the Chapters shortcut was reading the player from the wrong thread and taking the whole list down with it
+- Android links the documentation from the places people get stuck: the Home and Settings connection-failed states, Add Server (a setup guide for the selected server type, and troubleshooting after a failed save), and About, which now has separate Setup Guides and Troubleshooting rows
 - Android's Recent Series and Newest Authors shelves now use full-library date-added history instead of echoing Recently Added; Library also adds Date Added ordering, reversible sort direction, downloaded-only filtering, and provider-native read-status filters
 - Android records persistent playback-load and download-failure diagnostics so a device-only failure can be investigated after the fact
 
