@@ -49,6 +49,12 @@ On Android, the current listening position is also checkpointed locally every fi
 
 Morrow is an audiobook player, so ebook-only libraries and ebook-only entries are hidden. Books that have both an ebook and audio files appear normally.
 
+## Does Morrow handle very large libraries?
+
+Yes. Libraries of about 8,000 audiobooks or fewer are loaded once and browsed entirely on the device. Search, sorting, and the A–Z index all work instantly, exactly as they always have.
+
+Above roughly 8,000 books, Morrow switches to loading your library from the server as you go: the Library tab loads more as you scroll instead of all at once, search runs on the server instead of scanning a full local copy, and the A–Z scrubber is hidden (jumping to a letter isn't meaningful over a partial list). Everything you can do stays the same. Only how the data arrives changes, so a library this size doesn't freeze the app or come up blank.
+
 ## How does Home's Continue Listening decide what's "in progress"?
 
 A book appears after 60 seconds of playback. Briefly opening a book doesn't shelve it, and doesn't create a progress record on your server. Remove a book from the list with the context menu; it returns if you listen to it again. Continue Listening shows only the currently selected server's in-progress books. Morrow doesn't combine servers together.

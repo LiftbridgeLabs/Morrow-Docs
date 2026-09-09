@@ -17,7 +17,9 @@
 
 ## The library takes a long time to load
 
-The first load of a large library streams in from the server. After that, Morrow keeps a local snapshot and the grid appears instantly, refreshing in the background. If a library seems permanently stale, switch servers and back, or restart the app.
+Under about 8,000 books: the first load streams in from the server, then Morrow keeps a local snapshot so the grid appears instantly next time, refreshing in the background. If it seems permanently stale, switch servers and back, or restart the app.
+
+Above that, Morrow loads a page at a time as you scroll instead of caching the whole library. See [Does Morrow handle very large libraries?](faq.md#does-morrow-handle-very-large-libraries) in the FAQ. If the Library tab or search feels slow there, that's more likely your server needing a moment under load than the app being stuck.
 
 ## Playback does not start, or starts slowly
 
