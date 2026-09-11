@@ -1,6 +1,44 @@
 # Release notes
 
-Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Android app is in Google Play testing. Detailed, version-numbered release notes will be added here as public releases roll out; the list below summarizes what the current builds do.
+Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Android app is in Google Play testing. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
+
+## 1.6 (iPhone and iPad)
+
+Released DATE-ON-PUBLISH. The first public release since 1.5.
+
+### Playback no longer gets stuck
+
+- Playback that stopped part way through a book with the timer frozen now starts again on its own, usually within about fifteen seconds. Previously it stayed stuck until you force quit the app. If it genuinely cannot recover, Morrow now says so instead of sitting silent
+- Your place is protected through that recovery. A book picking itself back up can no longer write the start of the file over the position you were actually at, which on a long book meant losing hours
+
+### Listening offline
+
+- Downloaded books now play with no server connection at all, keeping their cover art, chapter list, and bookmarks. Previously some of that was only available while the server was reachable
+- Bookmarks you add, rename, or delete offline are sent to the server once you reconnect, and no longer arrive duplicated
+
+### Getting back to where you were
+
+- Reinstalling from an iCloud backup returns you to the server you were actually using, rather than the first one in your list
+- The protection that carries your position across a server-side re-import is now part of the iCloud backup, so it survives a reinstall or a new device
+- A book joins Continue Listening after thirty seconds of listening instead of a full minute
+
+### Large libraries
+
+- Home shelves fill in as your library loads instead of waiting for the whole thing
+- Search no longer flashes "No Results" while you are still typing
+- The Library tab loads more books as you scroll, and the Series tab no longer comes up nearly empty
+
+### Elsewhere
+
+- Ask Siri to resume your audiobook, or put a resume control in Control Center or on the Action Button
+- Up Next is a Home shelf you can reorder or hide, and a book only leaves the queue once it has really started playing
+- CarPlay gains a bookmark button and a working playback speed control. The Offline tab lists every download and switches servers when you tap one, and the chapter list opens on the chapter you are actually in
+- Cover art no longer shows the wrong book, and loads faster on a cold start
+- When a server or a file is unavailable, Morrow explains what happened in plain language instead of showing raw error text
+- Everything Morrow syncs between your devices is encrypted end to end
+
+An Apple TV app is in development and not yet publicly available. It will
+arrive on this same App Store listing rather than as a separate app.
 
 ## Current builds
 
