@@ -4,7 +4,7 @@ Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Andro
 
 ## 1.6 (iPhone and iPad)
 
-Released DATE-ON-PUBLISH. The first public release since 1.5.
+Released September 11, 2026. The first public release since 1.5.
 
 ### Playback no longer gets stuck
 
