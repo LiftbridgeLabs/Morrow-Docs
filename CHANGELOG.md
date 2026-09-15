@@ -2,6 +2,39 @@
 
 Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Android app is in Google Play testing. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.7 (iPhone and iPad)
+
+Released DATE-ON-PUBLISH.
+
+### Works with BookOrbit 2.10
+
+- BookOrbit 2.10 changed how servers handle listening progress, streaming, and bookmarks. On Morrow 1.6, a BookOrbit server that has updated stops saving your place, shows an empty Continue Listening, and cannot stream books you have not downloaded. 1.7 uses the new BookOrbit connection, and servers still on an earlier BookOrbit keep working as before
+- Continue Listening now shows the same books as BookOrbit's own web app. Marking a book Read or Abandoned there takes it off Continue Listening in Morrow too
+- Bookmarks can now be renamed on BookOrbit servers
+
+### Your place is safer
+
+- Briefly opening a book you started earlier no longer moves its saved position back or pushes it to the front of Continue Listening
+- Picking a book back up after a long break no longer loses the few seconds Morrow replays so you can catch the thread
+- Streaming a long book no longer stops for a moment every fifteen minutes
+- A download that is still running when the app updates now finishes and is kept
+
+### Adding a server
+
+- Test Connection checks your details before anything is saved
+- Adding a server you already have is caught instead of creating a second copy
+- Cloudflare Access headers pasted with their labels are cleaned up, and they now come back with the server when you restore from iCloud
+- Clearer messages when an address cannot be found, a password, API key, or magic link is rejected, or a request is blocked before it reaches your server
+
+### Elsewhere
+
+- Choose any accent color, not just the preset ones
+- Export Diagnostics, in About, creates a log you can send to support. Book titles and server addresses are removed first
+- Bookmarks added on another device appear when you come back to the app
+- Your default playback speed is part of the iCloud backup, and tapping a download in Settings takes you straight to Playing
+- In CarPlay, the Offline tab updates as downloads finish, and a Home row opens the whole shelf
+- Built for iOS 27. Home Screen widgets keep full-color cover art in the tinted and clear styles
+
 ## 1.6 (iPhone and iPad)
 
 Released September 11, 2026. The first public release since 1.5.
