@@ -35,6 +35,17 @@ Released DATE-ON-PUBLISH.
 - In CarPlay, the Offline tab updates as downloads finish, and a Home row opens the whole shelf
 - Built for iOS 27. Home Screen widgets keep full-color cover art in the tinted and clear styles
 
+## Android build 21
+
+In Google Play testing from September 15, 2026.
+
+### Works with BookOrbit 2.10
+
+- BookOrbit 2.10 changed how servers handle listening progress, streaming, and bookmarks. On Android build 20, a BookOrbit server that has updated stops saving your place, shows an empty Continue Listening, and cannot stream books you have not downloaded. Build 21 uses the new BookOrbit connection, and servers still on an earlier BookOrbit keep working as before
+- Continue Listening now shows the same books as BookOrbit's own web app. Marking a book Read or Abandoned there takes it off Continue Listening in Morrow too, on any BookOrbit version
+- Bookmarks can now be renamed on BookOrbit servers
+- A save that fails is now written to the playback log with the reason, so a server problem can no longer go unnoticed
+
 ## 1.6 (iPhone and iPad)
 
 Released September 11, 2026. The first public release since 1.5.
