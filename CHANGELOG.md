@@ -4,7 +4,7 @@ Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Andro
 
 ## 1.7 (iPhone and iPad)
 
-Released DATE-ON-PUBLISH.
+Released September 15, 2026.
 
 ### Works with BookOrbit 2.10
 
