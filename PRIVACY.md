@@ -4,7 +4,7 @@ Morrow connects your device directly to audiobook servers that you choose and op
 
 ## The short version
 
-Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or advertising SDKs. Liftbridge Labs never receives your data. Network traffic is between your device and the servers you configure; Apple users can optionally enable an iCloud Keychain backup.
+Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or advertising SDKs. The app never sends your data to Liftbridge Labs, and the only way we receive anything is if you email us yourself, such as a diagnostics file you chose to export and attach. Network traffic is between your device and the servers you configure; Apple users can optionally enable an iCloud Keychain backup.
 
 ## Server credentials
 
@@ -44,12 +44,20 @@ The same "Sync Servers and Up Next" setting that controls the iCloud backup abov
 
 ## Diagnostics and third parties
 
-- Morrow contains **no** analytics, crash-reporting, or advertising SDKs, and no third-party service receives app data.
+- Morrow contains **no** analytics, crash-reporting, or advertising SDKs, and no third-party service receives app data. The app never transmits diagnostics on its own, automatically or in the background.
 - Apple or Google may collect standard operating-system/store diagnostics according to your device and account settings. Those platform-controlled data flows are not sent to Liftbridge Labs by Morrow.
+
+## Diagnostics you choose to send
+
+Morrow keeps a few small diagnostic logs on the device so a playback or download problem can be explained after it happens. They stay on the device unless you send them.
+
+- **Export Diagnostics**, in Settings under About, gathers those logs into one text file. Server addresses, server identifiers, and book titles are removed as the file is written, so it does not describe what you listen to or where your servers are. What remains is app and system versions, playback and download events, file formats, sizes and durations, error codes, and timestamps. Passwords, tokens, and usernames are not written to these logs at all.
+- **You decide where the file goes.** You can read it first, save it, or attach it to an email to support. Choosing to email it is the only thing that sends it anywhere.
+- **If you email us,** we receive the file you attached and the address you sent it from, the same as any email. We use it to answer you and to fix the problem, and nothing else.
 
 ## Data retention and deletion
 
-- Liftbridge Labs retains nothing, because it receives nothing.
+- Liftbridge Labs receives nothing from the app itself, so there is nothing to retain. The exception is email you choose to send us: we keep a support message and anything attached to it only as long as it takes to answer you and fix the problem it describes. It is never sold, shared, or used for marketing.
 - Your servers retain the listening progress you send them, under your control.
 - On-device data is removed by deleting the app, subject to Apple's standard Keychain retention behavior; the optional iCloud backup is removed by turning the backup toggle off.
 
