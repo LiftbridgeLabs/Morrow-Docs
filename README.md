@@ -12,6 +12,7 @@ Morrow is a native audiobook player for iPhone, iPad, and Android, for people wh
 
 <p align="center">
   <a href="https://apps.apple.com/us/app/morrow-audiobook-player/id6789944325"><strong>Download on the App Store</strong></a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.liftbridgelabs.morrow"><strong>Get it on Google Play</strong></a> ·
   <a href="docs/getting-started.md">Get Started</a> ·
   <a href="docs/faq.md">FAQ</a> ·
   <a href="docs/troubleshooting.md">Troubleshooting</a> ·
@@ -50,8 +51,8 @@ Screenshots are coming as the interface settles.
 | App Store | Live |
 | CarPlay | Implemented and shipping |
 | Requires (iOS) | iOS 18 / iPadOS 18 or later |
-| Android development | Active beta |
-| Google Play | Internal testing; closed testing in progress |
+| Android development | Active, shipping |
+| Google Play | Live |
 | Requires (Android) | Android 8.0 (API 26) or later |
 
 ## Documentation

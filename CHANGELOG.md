@@ -1,6 +1,6 @@
 # Release notes
 
-Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is in Google Play testing. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
+Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
 ## 1.0 (Apple TV)
 
