@@ -1,6 +1,15 @@
 # Release notes
 
-Morrow for iPhone and iPad is live on the App Store and in TestFlight. The Android app is in Google Play testing. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
+Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is in Google Play testing. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
+
+## 1.0 (Apple TV)
+
+Released September 17, 2026. The first Apple TV release, on the same App Store listing as the iPhone and iPad app. It is free, with everything included.
+
+- Home, Library, Now Playing, and Settings, built for the Siri Remote
+- Connects to the same BookOrbit, Audiobookshelf, and Grimmory servers as the iPhone and iPad app. With "Sync Servers and Up Next" turned on, servers you already set up there appear on the TV without typing them in again
+- Your place in a book lives on your server, so the TV picks up where your phone left off. Up Next, Continue Listening choices, playback speed, and listening history sync between your Apple devices too
+- Put Morrow in the top row of the Home Screen and the Top Shelf shows Continue Listening, with progress on each book
 
 ## 1.7 (iPhone and iPad)
 
@@ -80,9 +89,6 @@ Released September 11, 2026. The first public release since 1.5.
 - Cover art no longer shows the wrong book, and loads faster on a cold start
 - When a server or a file is unavailable, Morrow explains what happened in plain language instead of showing raw error text
 - Everything Morrow syncs between your devices is encrypted end to end
-
-An Apple TV app is in development and not yet publicly available. It will
-arrive on this same App Store listing rather than as a separate app.
 
 ## Current builds
 
