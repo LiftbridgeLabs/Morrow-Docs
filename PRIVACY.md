@@ -51,7 +51,7 @@ The same "Sync Servers and Up Next" setting that controls the iCloud backup abov
 
 Morrow keeps a few small diagnostic logs on the device so a playback or download problem can be explained after it happens. They stay on the device unless you send them.
 
-- **Export Diagnostics**, in Settings under About, gathers those logs into one text file. Server addresses, server identifiers, and book titles are removed as the file is written, so it does not describe what you listen to or where your servers are. What remains is app and system versions, playback and download events, file formats, sizes and durations, error codes, and timestamps. Passwords, tokens, and usernames are not written to these logs at all.
+- **Export Diagnostics**, in Settings under About, gathers those logs into one text file. Server addresses, server identifiers, book titles, and library names are removed as the file is written, so it does not describe what you listen to or where your servers are. What remains is app and system versions, playback and download events, file formats, sizes and durations, error codes, and timestamps. Passwords, tokens, and usernames are not written to these logs at all.
 - **You decide where the file goes.** You can read it first, save it, or attach it to an email to support. Choosing to email it is the only thing that sends it anywhere.
 - **If you email us,** we receive the file you attached and the address you sent it from, the same as any email. We use it to answer you and to fix the problem, and nothing else.
 
