@@ -44,6 +44,47 @@ Released September 15, 2026.
 - In CarPlay, the Offline tab updates as downloads finish, and a Home row opens the whole shelf
 - Built for iOS 27. Home Screen widgets keep full-color cover art in the tinted and clear styles
 
+## Android build 22
+
+Coming to Google Play testing.
+
+### Works with BookOrbit 3.0
+
+- BookOrbit 3.0 changed how the server answers for Home's shelves. On Android build 21, a BookOrbit server that has updated shows an empty Continue Listening, Recently Added, and Discover. Build 22 reads the new answer, and servers on an earlier BookOrbit keep working as before
+- When one shelf cannot be loaded, Home keeps what it was showing instead of going blank
+
+### Audiobooks on this device
+
+- Play audiobook files you already have, with no server. Add On This Device in Settings, then import or link files or a whole folder from your phone, an SD card, or a storage app such as Google Drive, Dropbox, or Box
+- Import copies the files into Morrow. Link leaves them where they are and takes no extra room, but a linked audiobook stops playing if the original is moved, renamed, or deleted
+- Send an audio file to Morrow from another app with Share or Open with
+- Files that share an album tag become one audiobook, played in order. Chapters, cover art, author, narrator, and series come from the files themselves
+- Supports MP3, M4B, M4A, AAC, FLAC, WAV, Ogg, and Opus
+- These audiobooks stay on your device. They are never synced, and they are free to use whether or not you have Morrow Unlock
+
+### Your place is safer
+
+- Listening done offline no longer overwrites newer progress from another device when your phone reconnects
+- Switching servers in the middle of a book always saves your place to the server the book came from
+- Marking an Audiobookshelf book Finished, or hiding it from Continue Listening, can no longer reset its position
+- If the next book in Up Next cannot be loaded when a book ends, it stays in Up Next
+- Briefly opening a book you started earlier no longer moves its saved position back or pushes it to the front of Continue Listening
+- Each server remembers the book you were listening to, and brings it back when you switch to that server
+
+### Downloads
+
+- A download that is interrupted carries on from where it stopped instead of starting over
+
+### Elsewhere
+
+- Choose any accent color, not just the preset ones
+- Export Diagnostics and Email Diagnostics, in About, create a log you can send to support. Book titles, server addresses, and account names are removed first
+- Library filters show how many books each one holds, and books with no status count as Unread
+- The Library remembers the sort you chose
+- Bookmarks added on another device appear when you come back to the app
+- A server with no saved password asks for it instead of failing to connect
+- The server screen notes when an address uses http rather than https
+
 ## Android build 21
 
 In Google Play testing from September 15, 2026.
