@@ -48,6 +48,11 @@ Released September 15, 2026.
 
 Coming to Google Play testing.
 
+### Deutsch
+
+- Morrow for Android is now in German as well as English. It follows the phone's language, or set Morrow alone to German in Android Settings, Apps, Morrow, Language
+- Book titles, names, and chapters are shown as your server sends them
+
 ### Works with BookOrbit 3.0
 
 - BookOrbit 3.0 changed how the server answers for Home's shelves. On Android build 21, a BookOrbit server that has updated shows an empty Continue Listening, Recently Added, and Discover. Build 22 reads the new answer, and servers on an earlier BookOrbit keep working as before
