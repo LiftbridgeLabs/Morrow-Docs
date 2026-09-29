@@ -46,7 +46,7 @@ Released September 15, 2026.
 
 ## Android build 22
 
-Coming to Google Play testing.
+In Google Play testing from September 29, 2026.
 
 ### Deutsch
 
