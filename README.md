@@ -63,6 +63,7 @@ Screenshots are coming as the interface settles.
 - [Grimmory setup](docs/grimmory-setup.md)
 - [Frequently asked questions](docs/faq.md)
 - [Troubleshooting](docs/troubleshooting.md)
+- Deutsch: [Hilfe](docs/hilfe.de.md)
 
 ## Support and feedback
 
@@ -75,7 +76,7 @@ Before opening a new issue, please search the existing issues to see whether the
 ## Project information
 
 - [Release notes](CHANGELOG.md)
-- [Privacy](PRIVACY.md)
+- [Privacy](PRIVACY.md) ([Deutsch](PRIVACY.de.md))
 - [Support policy](SUPPORT.md)
 - [Security](SECURITY.md)
 

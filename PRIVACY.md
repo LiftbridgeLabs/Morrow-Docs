@@ -14,7 +14,7 @@ Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or adver
 
 ## iCloud backup (optional, Apple only)
 
-- "Back up servers to iCloud" in Settings is **off by default**.
+- "Back up to iCloud" in Settings is **off by default**.
 - When enabled, it stores your server list (server name, address, username, sign-in type, and the password or API key) as a synchronized item in your **iCloud Keychain**, which Apple end-to-end encrypts. No file appears in iCloud Drive, and Liftbridge Labs cannot read it.
 - The backup persists if you delete the app (so a reinstall can restore your setup). Turning the toggle off deletes the backup from iCloud for all devices.
 - This iCloud Keychain backup holds the server list only. The recently played list, listening history, and other cross-device state are handled separately, through your private iCloud database, as described in the next section. Android secure backup is currently disabled.

@@ -61,7 +61,7 @@ A book appears after 60 seconds of playback. Briefly opening a book doesn't shel
 
 On Audiobookshelf, removing a book from Continue Listening is saved to your server, so it stays removed everywhere you sign in, including Audiobookshelf's own web player. On BookOrbit, which has no equivalent server-side option, the removal syncs between your own Apple devices but won't reach an Android device or BookOrbit's own web interface.
 
-## What does "Back up servers to iCloud" do?
+## What does "Back up to iCloud" do?
 
 This Apple-only option stores your server list (including passwords) in your iCloud Keychain, the same protected storage Apple uses for your saved passwords. You won't see a file in iCloud Drive. Another device signed into the same Apple Account can restore the whole setup from Settings, and the backup survives deleting the app. Android secure backup is not currently enabled.
 
