@@ -2,7 +2,7 @@
   <img src="assets/morrow-icon.png" alt="Morrow app icon" width="128">
 </p>
 
-<h1 align="center">Morrow</h1>
+<h1 align="center">Morrow™</h1>
 
 <p align="center"><strong>Every story has a Morrow.</strong></p>
 
@@ -90,3 +90,5 @@ Morrow is developed independently by [Liftbridge Labs](https://github.com/Liftbr
 ---
 
 Morrow is a commercial, closed-source application. This public repository contains documentation and issue tracking only. Morrow does not provide, sell, or host audiobook content. It plays libraries from servers you operate.
+
+Morrow™ is a trademark of Liftbridge Labs LLC.
