@@ -58,6 +58,7 @@ Screenshots are coming as the interface settles.
 ## Documentation
 
 - [Getting started](docs/getting-started.md)
+- [Don't have a server yet?](docs/no-server.md)
 - [BookOrbit setup](docs/bookorbit-setup.md)
 - [Audiobookshelf setup](docs/audiobookshelf-setup.md)
 - [Grimmory setup](docs/grimmory-setup.md)

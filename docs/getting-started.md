@@ -8,7 +8,7 @@ You will need:
 
 - Morrow itself, from the [App Store](https://apps.apple.com/us/app/morrow-audiobook-player/id6789944325) for iPhone, iPad, and Apple TV, or [Google Play](https://play.google.com/store/apps/details?id=com.liftbridgelabs.morrow) for Android
 - An iPhone or iPad running iOS 18 / iPadOS 18 or later, or an Android device running Android 8.0 or later
-- A working BookOrbit, Audiobookshelf, or Grimmory server (a compatible legacy Booklore server also works as the Grimmory type)
+- A working BookOrbit, Audiobookshelf, or Grimmory server (a compatible legacy Booklore server also works as the Grimmory type). No server yet? See [Don't have a server yet?](no-server.md)
 - The server address you use from your device
 - A valid account for that server. Audiobookshelf also accepts an API key,
   BookOrbit also accepts a shared-account magic link, and Grimmory uses a
