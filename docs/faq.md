@@ -47,7 +47,7 @@ On Android, the current listening position is also checkpointed locally every fi
 
 ## Where did my ebooks go?
 
-Morrow is an audiobook player, so ebook-only libraries and ebook-only entries are hidden. Books that have both an ebook and audio files appear normally.
+Morrow is an audiobook player, so ebook-only libraries and ebook-only entries are hidden. A book that has both an ebook and audio files shows up as an audiobook: Morrow plays the audio and leaves the ebook alone.
 
 ## Does Morrow handle very large libraries?
 

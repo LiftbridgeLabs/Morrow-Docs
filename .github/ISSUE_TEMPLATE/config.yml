@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Documentation
-    url: https://github.com/LiftbridgeLabs/Morrow-Docs#documentation
-    about: Read the setup guides, FAQ, and troubleshooting information before opening an issue.
+  - name: Guides and troubleshooting
+    url: https://morrowplayer.com/docs
+    about: Setup guides, the FAQ, and troubleshooting. Most questions are answered here.
+  - name: Email support
+    url: mailto:support@liftbridgelabs.app
+    about: For anything private, including a diagnostics file exported from the app.

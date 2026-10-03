@@ -7,19 +7,37 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a problem. Do not include passwords, access tokens, API keys, or private server addresses.
+        Thanks for reporting a problem. Anyone can read this issue, so do not include passwords, access tokens, API keys, private server addresses, or book titles you would rather keep private.
+
+        A diagnostics file helps most. In Morrow's Settings, tap Export Diagnostics (under Support, or under About in versions before 1.10) and email it to support@liftbridgelabs.app, then mention here that you sent it. Please do not paste the file into this issue.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - iPhone
+        - iPad
+        - Apple TV
+        - Apple Watch
+        - CarPlay
+        - Android phone or tablet
+        - Android Auto
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
       label: Morrow version and build
-      placeholder: Example: 1.0 (15)
+      description: Shown in Settings > About.
+      placeholder: "Example: 1.10 (95)"
     validations:
       required: true
   - type: input
     id: device
     attributes:
       label: Device and operating system
-      placeholder: Example: iPhone 16 Pro, iOS 18.5
+      placeholder: "Example: iPhone 17 Pro, iOS 27.0, or Pixel 9, Android 16"
     validations:
       required: true
   - type: dropdown
@@ -27,10 +45,12 @@ body:
     attributes:
       label: Server type
       options:
-        - BookOrbit
         - Audiobookshelf
+        - BookOrbit
+        - Grimmory
+        - Booklore (older, connected as Grimmory)
+        - On This Device (files on the phone)
         - Not server-related
-        - Other
     validations:
       required: true
   - type: input
@@ -58,18 +78,18 @@ body:
   - type: dropdown
     id: network
     attributes:
-      label: Where does it happen?
+      label: Network
       multiple: true
       options:
-        - Local network
-        - Remote connection
+        - At home, same network as the server
+        - Away from home (remote access, VPN or tunnel)
         - Both
         - Not applicable
   - type: textarea
     id: logs
     attributes:
-      label: Error text or additional details
-      description: Redact credentials, tokens, personal data, and private addresses before posting.
+      label: Error text or other details
+      description: Copy error messages exactly. Redact credentials, tokens, personal data, and private addresses before posting.
   - type: checkboxes
     id: checks
     attributes:

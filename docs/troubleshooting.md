@@ -11,9 +11,23 @@
 ## The library is empty or incomplete
 
 - Confirm the expected audiobook library is visible to the same server account.
-- Morrow hides ebook-only libraries and ebook-only entries by design. It is an audiobook player. Books with both an ebook and audio files appear normally.
+- Morrow hides ebook-only libraries and ebook-only entries by design. It is an audiobook player. A book with both an ebook and audio files shows up as an audiobook.
 - Confirm the server has finished scanning or processing the affected books.
 - Restart Morrow and try again.
+
+## Covers, titles, or chapters look wrong
+
+Morrow shows what your server has for each book: the cover, title, author, narrator, series, description, and chapter list all come from the server's metadata. When one of them is missing or wrong, fix it on the server, and Morrow picks up the change the next time it refreshes the library.
+
+- **Audiobookshelf:** open the book in the web interface and use **Edit** (the pencil). The **Match** tab looks the book up in online catalogs, **Cover** changes the artwork, and **Chapters** can look chapters up or set them from the audio files.
+- **BookOrbit:** edit the book in BookOrbit's web interface, or refresh its metadata from there.
+- **Grimmory:** edit the book's metadata in Grimmory's web interface.
+
+A few patterns worth knowing:
+
+- **A cover or title from a different edition** usually means the server's automatic match picked the wrong book. Match it again by hand.
+- **Chapters that stop partway through the book, or one chapter per file named like the file,** come from the files themselves. Use the server's chapter editor, or set chapters from the tracks.
+- **A change made on the server not showing in Morrow:** pull down to refresh the Library, or switch servers and back.
 
 ## The library takes a long time to load
 
