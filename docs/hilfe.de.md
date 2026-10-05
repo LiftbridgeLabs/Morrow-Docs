@@ -40,6 +40,17 @@ Ja, auf zwei Wegen:
 
 **Alles andere nur innerhalb einer Plattform.** Die Liste „Als Nächstes“, aus „Weiterhören“ weggewischte Bücher, zuletzt gespielte Titel, das Tempo pro Buch, die Anordnung der Regale und der Hörverlauf werden über deine private iCloud-Datenbank zwischen iPhone, iPad und Apple TV synchronisiert, wenn du „Server und ‚Als Nächstes‘ synchronisieren“ einschaltest. Alles ist Ende-zu-Ende verschlüsselt.
 
+### Zählt mein Hören in der Statistik von BookOrbit?
+
+Ja, ab BookOrbit 3.2.0. Morrow sendet jede Hörsitzung an BookOrbit, sobald du aufhörst zu hören. Deine Statistiken, Serien und das Leseprotokoll jedes Buchs in BookOrbit enthalten dann auch, was du in Morrow hörst. Als Quelle steht dort „iOS app“.
+
+Deinen Hörverlauf von vor Morrow 1.10.1 kannst du nachträglich senden: Öffne die **Einstellungen**, wähle deinen BookOrbit-Server und tippe unter **Hörverlauf** auf **Bisherigen Hörverlauf an BookOrbit senden**.
+
+- Gesendet werden die Sitzungen, die Morrow auf diesem Gerät gespeichert hat, bis zu den letzten 20 pro Buch.
+- Sie zählen als Hörzeit, ohne Position, deshalb ändert sich der Status eines Buchs dabei nie.
+- Jede Sitzung wird nur einmal gezählt, egal wie oft du tippst.
+- Hast du ein Buch auf diesem Gerät auch mit einem anderen Konto oder Server gehört, hält Morrow diese Sitzungen zurück und fragt vorher. Ältere Sitzungen speichern nicht, zu welchem Konto sie gehören, deshalb zählen sie nach dem Senden alle als Hörzeit dieses Kontos.
+
 ### Unterstützt Morrow CarPlay?
 
 Ja: Home, Sammlungen, die ganze Bibliothek von A bis Z, Offline-Downloads, Serverwechsel und die Steuerung unter „Jetzt läuft“.

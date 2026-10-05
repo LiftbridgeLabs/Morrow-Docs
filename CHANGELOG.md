@@ -16,6 +16,127 @@ Released October 4, 2026.
 - Morrow signs in to BookOrbit 3.2.0 and newer the way BookOrbit's own apps do, so it stays signed in and keeps saving your place
 - Progress saved while your server couldn't be reached is sent as soon as Morrow can reach it again, including for a server you aren't currently using
 
+## 1.10 (iPhone and iPad)
+
+Released October 3, 2026.
+
+### German
+
+- Morrow is now in German as well as English: the app, its widgets, CarPlay, and the Apple Watch app. It follows your iPhone's language, or set Morrow alone to German in Settings, Apps, Morrow, Language
+- Book titles, names, and chapters are shown as your server sends them
+
+### Audiobooks on this device
+
+- Play audiobook files you already have, with no server. Add On This Device in Settings, Servers, then import or link files or a whole folder from Files, iCloud Drive, or a storage app such as Google Drive, Dropbox, or Box. You can also share a file to Morrow from the Files app
+- Import copies the files into Morrow. Link leaves them where they are and takes no extra room, but a linked audiobook stops playing if the original is moved, renamed, or deleted
+- Files that share an album tag become one audiobook, played in order, with chapters and cover art from the files themselves. Supports MP3, M4B, M4A, AAC, FLAC, WAV, AIFF, and CAF
+- Edit a book's title, authors, narrator, and series, or use Look Up Details to fill them in from Audible, Apple Books, Open Library, or Hardcover, in the order you choose
+- These audiobooks play in CarPlay too. They stay on this device, are never synced, and are free to use whether or not you have Morrow Unlock. Copied books are left out of your iCloud backup unless you turn on Include in iCloud Backup
+
+### Collections and Home
+
+- Add to Collection, on a book's page, adds it to a BookOrbit collection, an Audiobookshelf playlist, or a Grimmory shelf, or creates a new one with a name, icon, and description
+- The Collections tab shows each collection's icon and real book counts, and you can delete collections you made
+- Long-press any cover to play it, add it to a collection, mark it, or download it
+- New Want to Read and On Hold shelves on Home for BookOrbit servers. Turn them on or off in Home Shelves
+- Continue Listening keeps your server's order, and a book you start moves to the front after a short listen
+
+### Your place is safer
+
+- If your server ever offers a position more than 10 minutes behind yours, Morrow asks before going back. Stay Here keeps your place and corrects the server
+- Multi-part BookOrbit books pick up in the same part and spot on every device
+
+### Settings
+
+- A server's settings show the version it is running, and note when a newer one is out. Open in Browser opens the server's own web page, and a dot marks the address Morrow is using
+- A Support section on the Settings screen holds Guides, Email Support, Report a Problem, and Export Diagnostics
+- Keep screen awake while playing, in Playback, keeps the screen on while the player is showing
+- Appearance follows your iPhone's Light or Dark setting unless you choose otherwise, and settings explain themselves behind an info button instead of a paragraph
+
+### Elsewhere
+
+- BookOrbit audiobooks show their audiobook cover, not the ebook's, when a book has both
+- CarPlay: Wrap shelves onto more lines (Settings, Connected Devices, CarPlay) shows more covers at once on Home. Continue Listening follows the library you picked and catches up when an offline save is sent
+- VoiceOver names every player control, the scrubber can be adjusted by swiping up or down, and each book reads its status and progress
+- Switching servers while a download is running asks first, and the same book on two servers downloads as two separate copies
+
+## 1.2 (Apple TV)
+
+Released October 3, 2026.
+
+- Morrow on Apple TV is now in German as well as English. It follows the language set for the whole TV, in Settings, General, Language
+- Editing a server on the TV keeps its Home address and the libraries you hid, and a server you already have is caught instead of added again
+- Listening done while your server couldn't be reached no longer overwrites newer progress from another device, and switching servers in the middle of a book saves your place to the server the book came from
+
+## 1.9 (iPhone and iPad)
+
+Released September 2026.
+
+- A new App Store listing, with no changes to the app since 1.8.
+
+## 1.1 (Apple TV)
+
+Released September 2026.
+
+### Works with BookOrbit 3.0
+
+- BookOrbit 3.0 changed how the server answers for Home's shelves. On Apple TV 1.0, a BookOrbit server that has updated shows an empty Continue Listening, Recently Added, and Discover. 1.1 reads the new answer, and servers on an earlier BookOrbit keep working as before
+
+### Finding your books
+
+- Search the Library by title, author, or series. Words match from their start, so "King" finds Stephen King and not Mockingjay
+- Books in a series show their number on the cover, and a book's page says which series and number it is
+- Pick which library a server shows, in Settings, Servers. Servers are listed in alphabetical order
+- Home names the server it is showing
+
+### Switching servers
+
+- Each server remembers the book you were listening to, and brings it back when you switch to it
+- Now Playing fills in straight after a server switch, and comes back quickly on a very large server
+
+### Elsewhere
+
+- The Top Shelf fills in after an update without opening Morrow twice
+- Covers that fail to load while the server is busy try again instead of staying grey
+- Share Passwords with iPhone and iPad, in Settings, Servers, puts the TV's saved server passwords where a phone or iPad that lost them can restore them from iCloud
+
+## 1.8 (iPhone and iPad)
+
+Released September 26, 2026.
+
+### Apple Watch
+
+- Morrow now has an Apple Watch app. Send a book to the Watch from its page or by long-pressing its cover, and the Watch downloads it to play with Bluetooth headphones, with your phone left behind
+- Your place is saved to your server, so the phone picks up where the Watch stopped. Listening done without a connection is sent once the Watch is back online
+- While a book plays on your iPhone, the Watch shows it with play, pause, and skip controls, using the phone's own skip lengths
+- Settings, Connected Devices, Apple Watch shows each book on the Watch with its size
+
+### Works with BookOrbit 3.0
+
+- BookOrbit 3.0 changed how the server answers for Home's shelves. On Morrow 1.7, a BookOrbit server that has updated shows an empty Continue Listening, Recently Added, and Discover. 1.8 reads the new answer on the iPhone, iPad, and CarPlay, and servers on an earlier BookOrbit keep working as before
+
+### Library
+
+- Sorting the Library works again on BookOrbit, and the Library remembers the sort you chose
+- Status filters show how many books each one holds, and a status you set on a book's page shows up in the filter straight away
+- Search matches words from their start, so "King" finds Stephen King and not Mockingjay
+
+### Your place is safer
+
+- Listening done offline no longer overwrites newer progress from another device when your phone reconnects
+- Switching servers in the middle of a book always saves your place to the server the book came from
+- Marking an Audiobookshelf book Finished, or hiding it from Continue Listening, can no longer reset its position
+- If the next book in Up Next cannot be loaded when a book ends, it stays in Up Next
+- Each server remembers the book you were listening to, and brings it back when you switch to that server
+
+### Passwords and settings
+
+- Server passwords now move with your device to a new iPhone or iPad, and a server with no saved password asks for it before signing in
+- Restore from iCloud fills in a missing password for a server you already have
+- Settings is regrouped into Servers, Playback, On This Device, Connected Devices, Library, and App. Downloads, the storage limit, and the playback cache share one page
+- Email Diagnostics sends a log straight to support. Book titles and server addresses are removed first
+- Resume on Home starts playing right after launch, and covers that fail to load while the server is busy try again instead of staying grey
+
 ## 1.0 (Apple TV)
 
 Released September 17, 2026. The first Apple TV release, on the same App Store listing as the iPhone and iPad app. It is free, with everything included.
