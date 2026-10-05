@@ -2,6 +2,20 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.10.1 (iPhone and iPad)
+
+Released October 4, 2026.
+
+### Your listening counts in BookOrbit
+
+- On BookOrbit 3.2.0 and newer, every listening session goes to BookOrbit when you stop, so its stats, streaks, and time listened include what you play in Morrow. A session still counts if you close the app while a book is playing
+- Send Past Listening (Settings, then your BookOrbit server, then Listening History) adds the listening Morrow kept on your device from before this update, up to the last 20 sessions per book. It is added as time listened and never changes a book's status. If you played the same book under another account or server on this device, Morrow asks before sending those sessions, because older sessions don't record which account they came from
+
+### Staying in sync
+
+- Morrow signs in to BookOrbit 3.2.0 and newer the way BookOrbit's own apps do, so it stays signed in and keeps saving your place
+- Progress saved while your server couldn't be reached is sent as soon as Morrow can reach it again, including for a server you aren't currently using
+
 ## 1.0 (Apple TV)
 
 Released September 17, 2026. The first Apple TV release, on the same App Store listing as the iPhone and iPad app. It is free, with everything included.

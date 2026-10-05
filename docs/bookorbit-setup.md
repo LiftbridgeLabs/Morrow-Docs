@@ -21,6 +21,17 @@ Morrow can connect to a BookOrbit server using the server address and account cr
      its token) when your server provides password-less shared access.
 6. Save the connection.
 
+## Listening stats (BookOrbit 3.2.0 and newer)
+
+Morrow sends each listening session to BookOrbit when you stop listening, so BookOrbit's statistics, streaks, and each book's Reading Log include what you play in Morrow. Sessions show up with the source **iOS app**.
+
+To add listening from before Morrow 1.10.1, open **Settings**, choose your BookOrbit server, and tap **Send Past Listening to BookOrbit** under **Listening History**:
+
+- It sends the sessions Morrow kept on that device, up to the last 20 per book.
+- They are added as time listened, without a position, so no book's status changes.
+- Each session is counted once, however often you tap.
+- If you also played a book under another account or server on the same device, Morrow holds those sessions back and asks before sending them. Older sessions don't record which account they came from, so sending them counts all of them as this account's listening.
+
 ## Problems connecting
 
 See [Troubleshooting](troubleshooting.md). When reporting a problem, include the Morrow version, device operating-system version, BookOrbit version, and the exact error text. Remove credentials and private tokens first.
