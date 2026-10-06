@@ -4,7 +4,7 @@ Morrow connects your device directly to audiobook servers that you choose and op
 
 ## The short version
 
-Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or advertising SDKs. The app never sends your data to Liftbridge Labs, and the only way we receive anything is if you email us yourself, such as a diagnostics file you chose to export and attach. Network traffic is between your device and the servers you configure; Apple users can optionally enable an iCloud Keychain backup.
+Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or advertising SDKs. The app never sends your data to Liftbridge Labs, and the only way we receive anything is if you email us yourself, such as a diagnostics file you chose to export and attach. Network traffic is between your device and the servers you configure, plus book catalogs you choose to search when you look up details for a book stored on your device. Apple users can optionally enable an iCloud Keychain backup.
 
 ## Server credentials
 
@@ -42,9 +42,19 @@ The same "Sync Servers and Up Next" setting that controls the iCloud backup abov
 - The automatic playback cache stores streamed books on-device up to the size limit you set, and is excluded from device backups. You can inspect and clear it in Settings at any time.
 - Deleting the Android app removes its local data and Android Keystore secrets. On Apple devices, local files are removed while Keychain items follow Apple's standard behavior; the optional iCloud backup remains until you disable it.
 
+## Looking up book details (optional)
+
+Books you add with **On This Device** can have their details filled in with **Look Up Details**. Nothing is looked up unless you tap it.
+
+- When you do, Morrow sends the book's **title and author** as a search to the catalogs you choose: **Audible**, **Apple Books**, **Open Library**, and **Hardcover**. Audible and Apple Books also receive your region or country, so results match your store. Chapter details for an Audible match come from **Audnexus**, a community service, using that book's Audible identifier.
+- These searches contain public book information only. They never include your server addresses, credentials, listening history, or anything about your library. Like any web request, they show the catalog your device's IP address.
+- **Hardcover** is used only if you connect your own Hardcover account. You sign in on Hardcover's own page, and the resulting tokens are stored in the iOS Keychain or, on Android, encrypted with a key held by Android Keystore. Disconnecting deletes them.
+- A cover you choose from a result is downloaded from that catalog and stored with the book on your device.
+- Each catalog handles the searches it receives under its own privacy policy.
+
 ## Diagnostics and third parties
 
-- Morrow contains **no** analytics, crash-reporting, or advertising SDKs, and no third-party service receives app data. The app never transmits diagnostics on its own, automatically or in the background.
+- Morrow contains **no** analytics, crash-reporting, or advertising SDKs, and no third-party service receives app data, apart from the book searches described under "Looking up book details", which happen only when you ask for them. The app never transmits diagnostics on its own, automatically or in the background.
 - Apple or Google may collect standard operating-system/store diagnostics according to your device and account settings. Those platform-controlled data flows are not sent to Liftbridge Labs by Morrow.
 
 ## Diagnostics you choose to send

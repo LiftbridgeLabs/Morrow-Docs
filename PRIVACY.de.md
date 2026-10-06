@@ -6,7 +6,7 @@ Dies ist eine Übersetzung der [englischen Fassung](https://liftbridgelabs.app/p
 
 ## Kurz gesagt
 
-Morrow hat keine Benutzerkonten, keine Analyse, keine Werbung, kein Tracking und keine SDKs für Absturzberichte oder Werbung. Die App sendet deine Daten nie an Liftbridge Labs. Wir erhalten nur dann etwas, wenn du uns selbst eine E-Mail schreibst, etwa mit einer Diagnosedatei, die du selbst exportiert und angehängt hast. Der Netzwerkverkehr läuft zwischen deinem Gerät und den Servern, die du einrichtest. Auf Apple-Geräten kannst du zusätzlich eine Sicherung im iCloud-Schlüsselbund einschalten.
+Morrow hat keine Benutzerkonten, keine Analyse, keine Werbung, kein Tracking und keine SDKs für Absturzberichte oder Werbung. Die App sendet deine Daten nie an Liftbridge Labs. Wir erhalten nur dann etwas, wenn du uns selbst eine E-Mail schreibst, etwa mit einer Diagnosedatei, die du selbst exportiert und angehängt hast. Der Netzwerkverkehr läuft zwischen deinem Gerät und den Servern, die du einrichtest, sowie den Buchkatalogen, die du durchsuchst, wenn du Details für ein Buch auf deinem Gerät nachschlägst. Auf Apple-Geräten kannst du zusätzlich eine Sicherung im iCloud-Schlüsselbund einschalten.
 
 ## Server-Zugangsdaten
 
@@ -44,9 +44,19 @@ Dieselbe Einstellung „Server und ‚Als Nächstes‘ synchronisieren“, die d
 - Der automatische Wiedergabe-Cache speichert gestreamte Bücher bis zu dem von dir festgelegten Limit auf dem Gerät und ist von Gerätesicherungen ausgenommen. Du kannst ihn jederzeit in den Einstellungen ansehen und leeren.
 - Löschst du die Android-App, werden ihre lokalen Daten und die Geheimnisse im Android Keystore entfernt. Auf Apple-Geräten werden lokale Dateien entfernt, während Einträge im Schlüsselbund dem üblichen Verhalten von Apple folgen; die optionale iCloud-Sicherung bleibt bestehen, bis du sie ausschaltest.
 
+## Buchdetails nachschlagen (optional)
+
+Für Bücher, die du mit **Auf diesem Gerät** hinzufügst, kannst du mit **Details nachschlagen** die Angaben ergänzen lassen. Es wird nur dann etwas nachgeschlagen, wenn du darauf tippst.
+
+- Dann sendet Morrow den **Titel und den Autor** des Buchs als Suche an die Kataloge, die du auswählst: **Audible**, **Apple Books**, **Open Library** und **Hardcover**. Audible und Apple Books erhalten zusätzlich deine Region bzw. dein Land, damit die Ergebnisse zu deinem Store passen. Kapitelangaben zu einem Audible-Treffer kommen von **Audnexus**, einem Community-Dienst, anhand der Audible-Kennung dieses Buchs.
+- Diese Suchen enthalten nur öffentliche Buchinformationen. Sie enthalten nie deine Serveradressen, Zugangsdaten, deinen Hörverlauf oder Angaben zu deiner Bibliothek. Wie bei jeder Webanfrage sieht der Katalog die IP-Adresse deines Geräts.
+- **Hardcover** wird nur genutzt, wenn du dein eigenes Hardcover-Konto verbindest. Du meldest dich auf der Seite von Hardcover selbst an, und die dabei ausgestellten Tokens werden im Schlüsselbund von iOS gespeichert bzw. unter Android mit einem Schlüssel verschlüsselt, den der Android Keystore verwahrt. Wenn du die Verbindung trennst, werden sie gelöscht.
+- Ein Cover, das du aus einem Ergebnis auswählst, wird aus diesem Katalog geladen und zusammen mit dem Buch auf deinem Gerät gespeichert.
+- Jeder Katalog verarbeitet die Suchen, die er erhält, nach seiner eigenen Datenschutzerklärung.
+
 ## Diagnose und Dritte
 
-- Morrow enthält **keine** SDKs für Analyse, Absturzberichte oder Werbung, und kein Drittanbieter erhält Daten aus der App. Die App sendet von sich aus nie Diagnosedaten, weder automatisch noch im Hintergrund.
+- Morrow enthält **keine** SDKs für Analyse, Absturzberichte oder Werbung, und kein Drittanbieter erhält Daten aus der App, abgesehen von den unter „Buchdetails nachschlagen“ beschriebenen Buchsuchen, die nur auf deinen Wunsch stattfinden. Die App sendet von sich aus nie Diagnosedaten, weder automatisch noch im Hintergrund.
 - Apple oder Google können je nach Einstellungen deines Geräts und Accounts übliche Diagnosedaten des Betriebssystems oder Stores erfassen. Diese von der Plattform gesteuerten Datenflüsse werden von Morrow nicht an Liftbridge Labs gesendet.
 
 ## Diagnosedaten, die du selbst sendest
