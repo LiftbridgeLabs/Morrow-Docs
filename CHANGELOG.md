@@ -2,6 +2,59 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.11 (iPhone and iPad)
+
+Released October 10, 2026.
+
+### Your library and your listening
+
+- Filter chips under Books, Authors, and Narrators: All, Reading, Want to Read, Downloaded, and the rest of your server's statuses, each with a count. Tap one to filter, tap it again for All. Sort is right beside the count
+- Statistics adds a shelf of the books you've finished, with See All, and shows your longest streak, this week against last, your favorite day, and active days this year
+- Listening goals: set a daily, weekly, or books-per-month goal in Statistics. A daily goal shows as a trophy ring on Home that fills as you listen
+- Year in Review: your year in listening on one card, square or story size, to keep or share. Hours and days count everything Morrow has tracked; top authors and narrators count from this version on. Your server's name is never on the card
+- Pin any collection, playlist, or series to Home as its own shelf
+- Author pages list series in reading order with a sort menu, and a book's narrator opens their other books
+- A book you're part way through offers Resume with the time left
+- Home shows when it last updated, or when it last updated before your server became unreachable
+
+### Widget and shortcuts
+
+- The Now Playing widget plays or pauses when you tap the book, without opening Morrow. Choose Opens Morrow instead in Edit Widget
+- Small is the full cover with a progress ring around the play button; Large lists more of your books with their progress; iPad adds Extra Large
+- Touch and hold the Morrow icon for Resume, Continue Listening, Search, and Downloads
+
+### Playing
+
+- Settings, Playback: previous and next buttons (Lock Screen, CarPlay, a car's wheel, headphones) can jump chapters instead of skipping, and the Lock Screen seek bar can be locked against accidental scrubbing
+- Shake the phone to restart a running sleep timer, even with the screen locked; the last 10 seconds fade out as a warning
+- The scrubber pauses at each chapter start with a tap you can feel, and shows the chapter's name
+- After a Siri announcement or a call, the book picks up a few seconds back
+- Progress line styles (Morrow Unlock): Rolling Hills, Ripple, Jagged Peaks, or Heartbeat while a book plays
+- Keep next in series offline (Morrow Unlock): start a book in a series and the next one downloads. Free users see both Keep next settings locked
+
+### Offline and first run
+
+- With no connection, Home and Library show your downloads, ready to play, instead of an error
+- Without a server yet, a welcome guide walks through the options, and Test Connection shows how many books and authors a server has
+- Every empty screen says what goes there
+
+### Accessibility and security
+
+- VoiceOver, Voice Control, Larger Text, Reduce Motion, and Differentiate Without Color work across the player and your library
+- A warning before saving a server address that would send your password over the internet without encryption (plain http:// that isn't on your home network)
+- Your sign-in never follows a redirect to a different server, and the Apple Watch keeps your server's headers in its Keychain
+
+## 1.3 (Apple TV)
+
+Released October 10, 2026.
+
+- Library has the same filter chips as the iPhone: Reading, Unread, Read, and the rest of your server's statuses, with counts
+- Home shows when it last updated
+- Progress line styles: Rolling Hills, Ripple, Jagged Peaks, or Heartbeat while a book plays
+- Changes made on your iPhone, such as hiding a library, reach the Apple TV while it's open, no restart needed
+- Continue Listening and Up Next follow the library you picked
+- A server on your home network can be added by its IP address
+
 ## 1.10.1 (iPhone and iPad)
 
 Released October 4, 2026.
@@ -282,7 +335,7 @@ Released September 11, 2026. The first public release since 1.5.
 - When Cloudflare Access blocks a sign-in before it reaches the server, Android says so and points at the Advanced headers instead of blaming the account. A plain 403 no longer claims the server refused the account when that is not actually known
 - Library browsing with search, sorting, series, and collections; book details page with synopsis, community ratings, metadata, chapters, track information, and your current listening position
 - Home tab: your in-progress books on the currently selected server, with swipe-to-remove, plus a manual "Up Next" queue you can add books to and reorder. Finishing a book automatically starts the next one queued; Morrow Unlock adds an optional setting to automatically keep the next queued book downloaded before you get to it
-- A Home Screen widget on Apple and Android shows the book you're currently listening to (cover, title, author, and progress), has working play/pause and skip buttons, and taps straight into Now Playing. On Apple it comes in small, medium, and large sizes, plus a separate monthly listening-stats widget and a Control Center / Action Button control that resumes your last book
+- A Home Screen widget on Apple and Android shows the book you're currently listening to (cover, title, author, and progress) with working play/pause and skip buttons. On Apple, tapping the book plays or pauses it without opening Morrow (or opens Now Playing, chosen in Edit Widget); it comes in small, medium, and large sizes, plus extra large on iPad, alongside a monthly listening-stats widget and a Control Center / Action Button control that resumes your last book
 - Read/finished status shown and editable per book, matching what each server actually supports: all 8 of BookOrbit's statuses (Unread, Want to Read, Reading, On Hold, Re-reading, Read, Skimmed, Abandoned), or Audiobookshelf's 3 (Not Started, In Progress, Finished). Each status has its own color, shown right in the picker
 - Your place is kept even when a book is re-imported on the server (for example, when automation upgrades it to a better-quality file): Morrow recognizes the same book and carries your position forward, asking first if it isn't certain
 - Full playback suite: background and lock-screen playback, chapters, continuously adjustable playback speed from 0.50x to 2.50x in 0.05x steps, sleep timer (including end-of-chapter), and skip controls you can set to whatever amount you prefer. Playback speed has a default plus per-book overrides, and the scrubber can switch between the whole book and the current chapter when chapter metadata is available. The on-screen scrubber spans the whole book by default, with an option to show time remaining and/or your progress as a percentage
