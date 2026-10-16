@@ -2,6 +2,8 @@
 
 Morrow support is provided through this repository's issue tracker.
 
+For questions and ideas, you can also ask other Morrow listeners and the developer on [r/MorrowPlayer](https://www.reddit.com/r/MorrowPlayer/). The same privacy rules apply there: it is public.
+
 ## Before opening an issue
 
 - Read the [documentation](docs/getting-started.md).

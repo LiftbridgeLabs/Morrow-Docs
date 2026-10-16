@@ -16,7 +16,8 @@ Morrow is a native audiobook player for iPhone, iPad, and Android, for people wh
   <a href="docs/getting-started.md">Get Started</a> ·
   <a href="docs/faq.md">FAQ</a> ·
   <a href="docs/troubleshooting.md">Troubleshooting</a> ·
-  <a href="https://github.com/LiftbridgeLabs/Morrow-Docs/issues">Support</a>
+  <a href="https://github.com/LiftbridgeLabs/Morrow-Docs/issues">Support</a> ·
+  <a href="https://www.reddit.com/r/MorrowPlayer/">Community</a>
 </p>
 
 ---
@@ -71,6 +72,7 @@ Screenshots are coming as the interface settles.
 - [Report a bug](https://github.com/LiftbridgeLabs/Morrow-Docs/issues/new?template=bug-report.yml)
 - [Request a feature](https://github.com/LiftbridgeLabs/Morrow-Docs/issues/new?template=feature-request.yml)
 - [Ask for help](https://github.com/LiftbridgeLabs/Morrow-Docs/issues/new?template=support-request.yml)
+- [Join the community on r/MorrowPlayer](https://www.reddit.com/r/MorrowPlayer/) for questions, ideas, and release notes
 
 Before opening a new issue, please search the existing issues to see whether the same topic has already been reported.
 
