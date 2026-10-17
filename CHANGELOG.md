@@ -2,6 +2,13 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.11.1 (iPhone and iPad)
+
+Released October 17, 2026.
+
+- Books made of several files on BookOrbit play their parts in the order your server lists them
+- Skip forward and back carry across from one part of a book to the next
+
 ## 1.11 (iPhone and iPad)
 
 Released October 10, 2026.
