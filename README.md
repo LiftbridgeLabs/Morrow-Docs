@@ -4,8 +4,6 @@
 
 <h1 align="center">Morrow™</h1>
 
-<p align="center"><strong>Every story has a Morrow.</strong></p>
-
 <p align="center">
 Morrow is a native audiobook player for iPhone, iPad, and Android, for people who keep their libraries on their own <a href="docs/bookorbit-setup.md">BookOrbit</a>, <a href="docs/audiobookshelf-setup.md">Audiobookshelf</a>, or <a href="docs/grimmory-setup.md">Grimmory</a> servers.
 </p>
@@ -22,17 +20,6 @@ Morrow is a native audiobook player for iPhone, iPad, and Android, for people wh
 
 ---
 
-## The name
-
-A **morrow** is what comes next: the following day, tomorrow, the continuation after today.
-
-Morrow is not named simply because it plays audiobooks. It is named because it protects what comes next. Stop listening today and Morrow remembers where you were. Change devices, or even lose a book to a server-side re-import, and your story can continue without starting over.
-
-> **Every story has a Morrow.**
-> Because every story deserves to continue.
-
-Morrow is built around continuity, carrying stories forward across days, devices, and the places your books live.
-
 ## Why Morrow
 
 - **One app, every server you run**: works with BookOrbit, Audiobookshelf, and Grimmory on iPhone, iPad, and Android. The free version connects one server; Morrow Unlock connects as many as you like and switches between them from Home. Each one behaves exactly like itself, its own library, its own read/finished statuses, its own progress. Nothing forced to look the same across servers.
@@ -41,7 +28,7 @@ Morrow is built around continuity, carrying stories forward across days, devices
 - **Set up once, everywhere on Apple devices**: your server configuration can back up to iCloud Keychain and restore on a new device in one tap.
 - **CarPlay and Android Auto**: Home, Collections, a full A-Z Library browse, Offline, Up Next, server switching, and native Now Playing controls in the car.
 
-Screenshots are coming as the interface settles.
+Screenshots and a live demo: [morrowplayer.com](https://morrowplayer.com)
 
 ## Status
 
