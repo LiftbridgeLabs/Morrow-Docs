@@ -2,6 +2,39 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.12 (iPhone and iPad)
+
+Released October 19, 2026.
+
+### Adding a server
+
+- Type just your server's address and Morrow works out whether it's Audiobookshelf, BookOrbit, or Grimmory, then opens its sign-in with the address filled in. The supported servers are also shown as tiles to pick from
+- Plain http:// works with any address, including a server you reach by name over a VPN such as Tailscale. Morrow still warns that the password travels unencrypted, and when a server answers http:// by sending you to https://, Morrow saves the https:// address
+- Password AutoFill (iOS Passwords, 1Password) can link your server logins to Morrow
+
+### Home and your library
+
+- Continue Listening is a row of cards in each cover's colors, with a play button on every card
+- A book deleted on your server leaves Library, search, Home, Siri, and CarPlay. A server that's down, or a library folder it can't reach, never removes anything: those books are marked "Unavailable on server"
+- A deleted book you've downloaded stays in Library, marked "Not on the server", and keeps playing. Removing its download asks first, since it's the only copy
+
+### Listening
+
+- Audiobookshelf's Listening Sessions page and stats include what you play in Morrow. Settings can send your earlier listening once
+- Grimmory picks up a position you reached on another device
+- Multi-part books move from one part to the next without a pause
+- Playback recovers by itself if iOS resets its audio system
+
+### Downloads
+
+- Long multi-part downloads keep going while Morrow is in the background or closed by iOS
+- Turning on Auto-cache saves the book that's playing straight away, and Grimmory books split into many files are cached too
+
+### Settings
+
+- A Supporter badge for everyone who has left a tip or owns Morrow Unlock
+- Settings, Support, Community opens r/MorrowPlayer, and About has Rate Morrow. Morrow asks for a rating once, after your first finished book
+
 ## 1.11.1 (iPhone and iPad)
 
 Released October 17, 2026.

@@ -3,7 +3,7 @@
 ## Morrow cannot connect to the server
 
 1. Open the same server address in a browser on the affected device.
-2. Confirm the address includes the correct scheme (`https://` or `http://`) and port.
+2. Confirm the address includes the correct scheme (`https://` or `http://`) and port. Plain `http://` works with any address, including over a VPN such as Tailscale, but use `https://` for a server on the open internet: over `http://` your password travels unencrypted.
 3. Confirm your username and password still work in the server web interface.
 4. Temporarily test from the same local network as the server.
 5. If you use a reverse proxy, check its logs and authentication rules.
