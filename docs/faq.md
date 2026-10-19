@@ -2,7 +2,7 @@
 
 ## Is Morrow an audiobook server?
 
-No. Morrow is a player that connects to a BookOrbit, Audiobookshelf, or Grimmory server you already operate.
+No. Morrow is a player. It connects to a BookOrbit, Audiobookshelf, or Grimmory server you have access to, and on iPhone and iPad it also plays audiobook files stored on the device.
 
 ## Does Morrow include audiobooks?
 

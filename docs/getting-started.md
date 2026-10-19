@@ -1,6 +1,6 @@
 # Getting started with Morrow
 
-Morrow connects to an audiobook server you already operate. It does not host or supply audiobook content.
+Morrow plays audiobooks from a BookOrbit, Audiobookshelf, or Grimmory server you have access to, and on iPhone and iPad, from audiobook files on your device. It does not host or supply audiobook content.
 
 ## Before you begin
 
