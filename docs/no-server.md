@@ -25,7 +25,7 @@ If you want to reach the server away from home, set up a reverse proxy or VPN as
 
 ## Already have audiobook files?
 
-Morrow plays audiobook files from your device with no server at all. On iPhone and iPad, choose **Add Audiobook Files** on the Home tab, then **Import Files** or **Link a Folder**. On Android, add **On This Device** in Settings, then import or link files or a whole folder from your phone, an SD card, or a storage app.
+Morrow plays audiobook files from your device with no server at all. On iPhone and iPad, choose **Add Audiobook Files** on the Home tab, then **Import Files** or **Link a Folder**. On Android, this is in testing now and comes to everyone with the next Play release.
 
 You can add a server any time later.
 
