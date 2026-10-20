@@ -24,13 +24,13 @@ Grimmory has no API key or magic link option. Grimmory servers also have no sepa
 
 If your Grimmory server signs in through an identity provider (OpenID Connect, for example Pocket ID, Authentik, Authelia or Keycloak), Morrow can sign in the same way. Morrow 1.13 or later is required.
 
-**Google sign-in can't be used.** Grimmory's app sign-in needs a provider that accepts an app address, and Google doesn't. Morrow says so on the server form. Use a Grimmory password account instead.
+**Google works for Grimmory's website, but not for app sign-in.** Grimmory sends an app's sign-in straight back to the app's own address, and Google only returns to web addresses. If your server uses Google, Morrow says so on the server form; sign in to Morrow with a Grimmory password account instead.
 
 ### For the server admin (once)
 
 1. In Grimmory, open **Settings > OIDC** and set up your provider. Leave **Client Secret** empty for a public client.
 2. Under **Allowed Mobile Redirect URIs**, add `morrow://oauth`. Keep the existing entries.
-3. At your provider, on Grimmory's client, add `morrow://oauth` as a callback URL, beside Grimmory's own web callback. In Pocket ID: **OIDC Clients > Grimmory > Callback URLs**. Grimmory's client should be **Public** with **PKCE** on.
+3. In your sign-in server (for example Pocket ID or Authentik), open the client you created for Grimmory and add `morrow://oauth` to its callback URLs, beside Grimmory's own web callback. In Pocket ID: **OIDC Clients > Grimmory > Callback URLs**. That client should be **Public** with **PKCE** on.
 
 Grimmory matches a sign-in to an existing account by the claim set in **Username Claim**. If accounts were created with a password, turn on **Link Existing Local Accounts** until each person has signed in once with SSO.
 

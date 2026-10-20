@@ -29,7 +29,7 @@ If your Audiobookshelf server uses OpenID Connect sign-in (for example Pocket ID
 
 1. In Audiobookshelf, open **Settings > Authentication > OpenID Connect Authentication**.
 2. Under **Allowed Mobile Redirect URIs**, add `morrow://oauth`. Keep the existing entries.
-3. At your provider, on Audiobookshelf's client, the callback URLs must be the two Audiobookshelf lists under "Authorize these URLs in your OAuth provider". With the default **Subfolder for Redirect URLs** (`/audiobookshelf`) they are:
+3. In your sign-in server (for example Pocket ID, Authentik or Google Cloud Console), open the client you created for Audiobookshelf. Its callback URLs must be the two Audiobookshelf lists under "Authorize these URLs in your OAuth provider". With the default **Subfolder for Redirect URLs** (`/audiobookshelf`) they are:
    - `https://your-server/audiobookshelf/auth/openid/callback`
    - `https://your-server/audiobookshelf/auth/openid/mobile-redirect`
 4. After saving, restart Audiobookshelf. Its settings page notes that OpenID changes need a restart.
