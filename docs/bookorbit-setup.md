@@ -19,7 +19,37 @@ Morrow can connect to a BookOrbit server using the server address and account cr
    - **Password**: enter your BookOrbit username and password.
    - **Shared account link**: paste the complete BookOrbit magic link (or just
      its token) when your server provides password-less shared access.
+   - **SSO**: sign in with your server's identity provider. See
+     [Sign in with SSO](#sign-in-with-sso).
 6. Save the connection.
+
+## Sign in with SSO
+
+If your BookOrbit server signs in through an identity provider (OpenID Connect, for example Pocket ID, Authentik, Authelia or Keycloak), Morrow can sign in the same way. Morrow 1.13 and BookOrbit 3.2 or later are required.
+
+Google works for BookOrbit's website, but not for app sign-in. BookOrbit sends every app's sign-in back to the address `bookorbit://oauth2-callback`, and Google only returns to web addresses. This affects all BookOrbit apps, not only Morrow. If a server's only provider is Google, Morrow doesn't offer SSO for it; use a password account or a shared account link instead.
+
+### For the server admin (once)
+
+1. In your sign-in server (for example Pocket ID or Authentik), open the client you use for BookOrbit, or create one, and add `bookorbit://oauth2-callback` to its callback URLs, beside BookOrbit's own web callback (`https://<your server>/oauth2-callback`). In Pocket ID: **OIDC Clients > BookOrbit > Callback URLs**.
+2. In BookOrbit, open **Settings > OIDC / SSO** and add the provider with **Add Provider**: its **Issuer URI**, **Client ID** and **Client Secret**. Make sure **Enable provider** is on.
+3. Decide how accounts are matched. **Allow local account linking** links a sign-in to an existing BookOrbit account with the same username. **Auto-provision users** creates an account on the first sign-in. With neither, each person links the provider themselves first, in BookOrbit's website under **Settings > Account > Connected Accounts**.
+
+You can keep Google for BookOrbit's website and add a second provider for apps; BookOrbit offers several at once.
+
+### In Morrow
+
+1. Add (or edit) your BookOrbit server and enter its address.
+2. Under **Account**, choose **SSO** (or your provider's name, when it is short enough to fit), then **Sign in with** your provider.
+3. Sign in on your provider's page. When it closes, the server is saved and connects.
+
+Good to know:
+
+- If your server offers more than one provider, Morrow shows a button for each, and remembers the one you used.
+- Your sign-in stays on this device and renews itself. If it ends, Morrow asks you to sign in again with your provider.
+- Switching a server you already have from a password to SSO replaces the saved password. To go back, edit the server and enter the password again.
+- If the server only allows SSO, the password fields are hidden; a shared account link still works.
+- Apple TV and Apple Watch can't sign in to an SSO server yet. Use it on iPhone or iPad.
 
 ## Listening stats (BookOrbit 3.2.0 and newer)
 

@@ -8,7 +8,8 @@ Not released yet.
 
 ### Signing in
 
-- Sign in to Grimmory and Audiobookshelf with your server's single sign-on, such as Pocket ID, Authentik or Keycloak, and Google on Audiobookshelf. See the [Grimmory](docs/grimmory-setup.md#sign-in-with-sso) and [Audiobookshelf](docs/audiobookshelf-setup.md#sign-in-with-sso) setup guides
+- Sign in to Grimmory, Audiobookshelf and BookOrbit with your server's single sign-on, such as Pocket ID, Authentik or Keycloak, and Google on Audiobookshelf. See the [Grimmory](docs/grimmory-setup.md#sign-in-with-sso), [Audiobookshelf](docs/audiobookshelf-setup.md#sign-in-with-sso) and [BookOrbit](docs/bookorbit-setup.md#sign-in-with-sso) setup guides
+- Settings > Servers shows which account each server is signed in as, and how
 
 ### Home and your library
 
