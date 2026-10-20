@@ -2,6 +2,23 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.13 (iPhone and iPad)
+
+Not released yet.
+
+### Signing in
+
+- Sign in to Grimmory and Audiobookshelf with your server's single sign-on, such as Pocket ID, Authentik or Keycloak, and Google on Audiobookshelf. See the [Grimmory](docs/grimmory-setup.md#sign-in-with-sso) and [Audiobookshelf](docs/audiobookshelf-setup.md#sign-in-with-sso) setup guides
+
+### Home and your library
+
+- Continue Listening no longer repeats the book shown at the top of Home
+- Book statuses use each server's own words: Not Started, In Progress and Finished on Audiobookshelf
+
+### Grimmory
+
+- Books start playing sooner, and Details shows a book's description
+
 ## 1.12 (iPhone and iPad)
 
 Released October 19, 2026.
