@@ -14,7 +14,7 @@ No. Morrow is a commercial, closed-source application. This repository contains 
 
 ## Which devices are supported?
 
-iPhone and iPad running iOS 18 / iPadOS 18 or later, and Android devices running Android 8.0 or later.
+iPhone and iPad running iOS 18 / iPadOS 18 or later, Apple Watch running watchOS 11 or later, Apple TV running tvOS 18 or later, and Android devices running Android 8.0 or later. Morrow also works in CarPlay and Android Auto.
 
 ## Can I connect more than one server?
 
