@@ -2,6 +2,48 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## Android build 28
+
+Released on Google Play October 27, 2026. This is the first Google Play release since build 21, so it also brings everything in build 22 below, which was only in testing.
+
+### Works with BookOrbit 3.2
+
+- Morrow signs in to BookOrbit 3.2 and later as its own app, and stays signed in through long listening sessions
+- Your listening shows in each book's Reading Log in BookOrbit. Send Past Listening, in the server's Listening History, sends what you listened to in Morrow before, one time, without changing any position or status
+- Saves made while a server could not be reached go out as soon as Morrow connects again, including saves for a server you are not using right now
+
+### Home and your library
+
+- Want to Read and On Hold shelves for BookOrbit, set in Settings, Home Shelves
+- Add a book to a collection from its Details, or create a new collection with a name, icon, and description. On Audiobookshelf these are playlists, and on Grimmory and Booklore, shelves
+- Long-press any cover on Home or in the Library to play it, add it to a collection, change its status, or download it
+- A book you start moves to the front of Continue Listening after its first save, and Continue Listening keeps your books even when the library you picked holds none of them
+
+### Your place is safer
+
+- If the server has your position more than 10 minutes behind where you are, Morrow asks before going back
+
+### Offline
+
+- With no connection, Morrow shows your downloads instead of a Connection Failed message, and reconnects when you are back online
+- A downloaded book's page opens and plays offline
+- Switching servers while a download runs asks first whether to stop it
+
+### Android Auto
+
+- Home and your servers are there in the car even when Morrow was not already running
+- Audiobooks on this device are listed under Offline
+
+### Settings and the player
+
+- Settings is split into pages, as on iPhone, and ends with Support: guides, Email Support, Report a Problem, and Export Diagnostics
+- Keep screen awake keeps the Playing screen on while a book plays, and each playback setting has an info button that explains it
+- A server's page shows the version it runs, opens the server in your browser, and marks the address in use
+- Light and Dark follow your phone's setting unless you chose one
+- On the Playing screen, the downloaded mark opens a menu, and casting sits next to speed and sleep
+- Two Audiobookshelf accounts on the same server, each with its own API key, can both be added
+- TalkBack names every player control, and each book on Home or in the Library is one stop
+
 ## 1.12 (iPhone and iPad)
 
 Released October 19, 2026.
@@ -190,7 +232,7 @@ Released September 2026.
 ### Elsewhere
 
 - The Top Shelf fills in after an update without opening Morrow twice
-- Covers that fail to load while the server is busy try again instead of staying grey
+- Covers that fail to load while the server is busy try again instead of staying gray
 - Share Passwords with iPhone and iPad, in Settings, Servers, puts the TV's saved server passwords where a phone or iPad that lost them can restore them from iCloud
 
 ## 1.8 (iPhone and iPad)
@@ -228,7 +270,7 @@ Released September 26, 2026.
 - Restore from iCloud fills in a missing password for a server you already have
 - Settings is regrouped into Servers, Playback, On This Device, Connected Devices, Library, and App. Downloads, the storage limit, and the playback cache share one page
 - Email Diagnostics sends a log straight to support. Book titles and server addresses are removed first
-- Resume on Home starts playing right after launch, and covers that fail to load while the server is busy try again instead of staying grey
+- Resume on Home starts playing right after launch, and covers that fail to load while the server is busy try again instead of staying gray
 
 ## 1.0 (Apple TV)
 
