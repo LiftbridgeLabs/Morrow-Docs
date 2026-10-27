@@ -1,0 +1,23 @@
+# Standard security scans (Jason's Rule #2). The scans themselves live in
+# LiftbridgeLabs/.github, .github/workflows/security-scan.yml. This repo is
+# documentation only, so no dependency audit inputs are set.
+name: Security
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Mondays, so new advisories against unchanged dependencies are seen.
+    - cron: "23 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    # Pinned to a commit (Dependabot keeps it current).
+    uses: LiftbridgeLabs/.github/.github/workflows/security-scan.yml@285f06f9c05ae483229ce1d8265697e4f2629c75 # main, 2026-10-27
+    secrets:
+      DISCORD_WEBHOOK: ${{ secrets.ALERTS_DISCORD_WEBHOOK }}
