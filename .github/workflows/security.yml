@@ -18,6 +18,6 @@ permissions:
 jobs:
   scan:
     # Pinned to a commit (Dependabot keeps it current).
-    uses: LiftbridgeLabs/.github/.github/workflows/security-scan.yml@ead0198752a5d39a283ed4699215967dadb22816 # main, 2026-10-28
+    uses: LiftbridgeLabs/.github/.github/workflows/security-scan.yml@74c45acb885e7545dbccd0acf90407d62347ea4e # main, 2026-10-30
     secrets:
       DISCORD_WEBHOOK: ${{ secrets.ALERTS_DISCORD_WEBHOOK }}
