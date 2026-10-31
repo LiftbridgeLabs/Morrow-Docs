@@ -2,6 +2,35 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.13 (iPhone and iPad)
+
+Released October 30, 2026.
+
+### Signing in
+
+- Sign in to Grimmory, Audiobookshelf and BookOrbit with your server's single sign-on, such as Pocket ID, Authentik or Keycloak, and Google on Audiobookshelf. See the [Grimmory](docs/grimmory-setup.md#sign-in-with-sso), [Audiobookshelf](docs/audiobookshelf-setup.md#sign-in-with-sso) and [BookOrbit](docs/bookorbit-setup.md#sign-in-with-sso) setup guides
+- Settings > Servers shows which account each server is signed in as, and how
+
+### Home and your library
+
+- Continue Listening no longer repeats the book shown at the top of Home
+- Book statuses use each server's own words: Not Started, In Progress and Finished on Audiobookshelf
+
+### Book page and Playing
+
+- A book's page shows your Listening History, and a bar with Play and the chapters stays at the top as you scroll
+- Playing has a Book Details button beside the title for the book's full page, and a series button for the rest of the series
+- A book written by more than one author has a button for each author on Audiobookshelf
+
+### CarPlay
+
+- Library can show covers, small or large: Settings > Connected Devices > CarPlay
+
+### Grimmory
+
+- Books start playing sooner, and Details shows a book's description
+- Grimmory and Booklore downloads are now stored per book. A few made before 1.13 may need downloading again; Morrow lists them in Settings > Downloads & Storage
+
 ## Android build 28
 
 Released on Google Play October 27, 2026. This is the first Google Play release since build 21, so it also brings everything in build 22 below, which was only in testing.
