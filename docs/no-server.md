@@ -16,7 +16,7 @@ Each link goes to that project's own installation guide.
 
 ## Getting started
 
-1. **Install the server.** Follow the setup guide on its website. It runs at home or on a host you rent.
+1. **Install the server.** Follow the setup guide on its website. It runs at home or on a host you rent; [Hosting your own server](host-your-own-server.md) helps you choose.
 2. **Add your audiobooks.** Point the server at the folder your audiobook files are in.
 3. **Come back to Morrow.** Add the server in Morrow with its address and your account. The setup page for your server walks through it:
    [Audiobookshelf](audiobookshelf-setup.md), [BookOrbit](bookorbit-setup.md), or [Grimmory](grimmory-setup.md).
