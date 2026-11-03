@@ -46,7 +46,7 @@ Good to know:
 
 - Your sign-in stays on this device and renews itself. If it ends, Morrow asks you to sign in again with your provider.
 - Removing the server from Morrow signs out only this device.
-- Apple TV and Apple Watch can't sign in to an SSO server yet. Use it on iPhone or iPad.
+- Apple TV: add the server in Morrow on your iPhone or iPad and turn on "Sync Servers and Up Next" (Settings > Apple TV). On the TV, open it under Settings > Servers and choose Sign In, then finish signing in on your iPhone or iPad, which needs to be nearby. Each Apple TV signs in once on its own. Apple Watch can't sign in to an SSO server yet.
 - If `morrow://oauth` is missing from the allowed list, Morrow says so and names the setting.
 
 ## Problems connecting
