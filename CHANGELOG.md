@@ -2,6 +2,17 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.4 (Apple TV)
+
+Released November 3, 2026.
+
+- Continue Listening is a row of cards, each tinted by its own cover, with how far you are through the whole book and the time left
+- Library status names come from your server: Not Started, In Progress and Finished on Audiobookshelf, BookOrbit's own set on BookOrbit
+- A server that uses a plain http address can be added, with a clear warning about sending your password unencrypted
+- A book deleted on your server leaves the Apple TV too, while a server that is simply offline changes nothing
+- Settings shows the account each server uses and how it signs in
+- A Community row in Settings opens r/MorrowPlayer
+
 ## 1.13 (iPhone and iPad)
 
 Released October 30, 2026.
