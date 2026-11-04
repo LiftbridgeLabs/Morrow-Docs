@@ -8,7 +8,7 @@ Not released yet.
 
 ### Signing in
 
-- Sign in to a Grimmory, Audiobookshelf or BookOrbit server that uses single sign-on. Add the server on your iPhone or iPad with "Sync Servers and Up Next" turned on, then choose Sign In for it under Settings > Servers on the TV and finish on your iPhone or iPad. Each Apple TV signs in once on its own
+- Sign in to a Grimmory, Audiobookshelf or BookOrbit server that uses single sign-on. Add it under Settings > Servers > Add a Server and finish signing in on your iPhone or iPad. A server you already have can switch to single sign-on from its own page there. Each Apple TV signs in once, on its own
 
 ## 1.13 (iPhone and iPad)
 

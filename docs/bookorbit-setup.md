@@ -49,7 +49,7 @@ Good to know:
 - Your sign-in stays on this device and renews itself. If it ends, Morrow asks you to sign in again with your provider.
 - Switching a server you already have from a password to SSO replaces the saved password. To go back, edit the server and enter the password again.
 - If the server only allows SSO, the password fields are hidden; a shared account link still works.
-- Apple TV: add the server in Morrow on your iPhone or iPad and turn on "Sync Servers and Up Next" (Settings > Apple TV). On the TV, open it under Settings > Servers and choose Sign In, then finish signing in on your iPhone or iPad, which needs to be nearby. Each Apple TV signs in once on its own. Apple Watch can't sign in to an SSO server yet.
+- Apple TV: add an SSO server under Settings > Servers > Add a Server and finish signing in on your iPhone or iPad. Each Apple TV signs in once, on its own. Apple Watch can't sign in to an SSO server yet.
 
 ## Listening stats (BookOrbit 3.2.0 and newer)
 
