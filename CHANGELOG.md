@@ -10,7 +10,6 @@ Released November 3, 2026.
 - Library status names come from your server: Not Started, In Progress and Finished on Audiobookshelf, BookOrbit's own set on BookOrbit
 - A server that uses a plain http address can be added, with a clear warning about sending your password unencrypted
 - A book deleted on your server leaves the Apple TV too, while a server that is simply offline changes nothing
-- Settings shows the account each server uses and how it signs in
 - A Community row in Settings opens r/MorrowPlayer
 
 ## 1.13 (iPhone and iPad)
