@@ -2,6 +2,26 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.5 (Apple TV)
+
+Released November 9, 2026.
+
+### Signing in
+
+- Sign in to a Grimmory, Audiobookshelf or BookOrbit server that uses single sign-on. Add it under Settings > Servers > Add a Server and finish signing in on your iPhone or iPad. A server you already have can switch to single sign-on from its own page there. Each Apple TV signs in once, on its own
+- Setting up a new Apple TV lists the servers it found from your iPhone or iPad, so you can restore them all or set up just one by hand
+- Settings > Servers shows which account each server is signed in as, and how, so two entries for the same server tell each other apart
+
+### Home and your library
+
+- Continue the Series offers the next book in each series
+- Finished books show a green check in the Library, the same as on iPhone
+- Library search has a Clear button
+
+### Works with BookOrbit 3.7
+
+- Statistics shows your reading streak and longest streak on BookOrbit 3.7 servers
+
 ## 1.4 (Apple TV)
 
 Released November 3, 2026.
