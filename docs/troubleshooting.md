@@ -8,6 +8,10 @@
 4. Temporarily test from the same local network as the server.
 5. If you use a reverse proxy, check its logs and authentication rules.
 
+## Something stopped working after a server update
+
+Check [Server compatibility](server-compatibility.md) for your server's version. It lists what each update changes in Morrow and which Morrow version adjusts to it.
+
 ## The library is empty or incomplete
 
 - Confirm the expected audiobook library is visible to the same server account.

@@ -16,6 +16,10 @@ No. Morrow is a commercial, closed-source application. This repository contains 
 
 iPhone and iPad running iOS 18 / iPadOS 18 or later, Apple Watch running watchOS 11 or later, Apple TV running tvOS 18 or later, and Android devices running Android 8.0 or later. Morrow also works in CarPlay and Android Auto.
 
+## Will a server update break Morrow?
+
+Usually not, but a server update can change what apps are allowed to do. [Server compatibility](server-compatibility.md) lists each server version that changes something in Morrow, what still works, and which Morrow version adjusts to it.
+
 ## Can I connect more than one server?
 
 The free version connects to one server. Morrow Unlock removes that limit, so you can add several and switch between them from the Home tab.

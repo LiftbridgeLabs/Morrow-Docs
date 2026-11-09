@@ -8,6 +8,7 @@ Die App gibt es auf Deutsch. Die ausführlichen Anleitungen sind derzeit auf Eng
 - [BookOrbit setup](https://liftbridgelabs.app/products/morrow/docs/bookorbit-setup), [Audiobookshelf setup](https://liftbridgelabs.app/products/morrow/docs/audiobookshelf-setup), [Grimmory setup](https://liftbridgelabs.app/products/morrow/docs/grimmory-setup): die Einrichtung für deinen Server
 - [Troubleshooting](https://liftbridgelabs.app/products/morrow/docs/troubleshooting): wenn eine Verbindung, Wiedergabe oder ein Download nicht klappt
 - [FAQ](https://liftbridgelabs.app/products/morrow/docs/faq): alle Fragen und Antworten
+- [Server compatibility](https://morrowplayer.com/docs/server-compatibility): was jedes Server-Update an Morrow ändert
 
 ## Häufige Fragen
 
@@ -62,6 +63,17 @@ Ja: Home, Sammlungen, die ganze Bibliothek von A bis Z, Offline-Downloads, Serve
 ### Kann ich Morrow außerhalb meines Heimnetzes nutzen?
 
 Ja, sofern dein Server sicher von deinem Gerät aus erreichbar ist. Empfohlen ist HTTPS über einen korrekt eingerichteten Reverse-Proxy.
+
+### Was ändert ein Server-Update an Morrow?
+
+Ein Server-Update kann ändern, was Apps dürfen. Was jedes Update für Morrow bedeutet, steht laufend aktualisiert auf Englisch unter [Server compatibility](https://morrowplayer.com/docs/server-compatibility). Wenn dort etwas für eine Serverversion als betroffen steht, kannst du mit dem Update deines Servers warten, bis das passende Morrow-Update da ist.
+
+Das Wichtigste zu BookOrbit 3.7.0 (erschienen am 8. November 2026): Diese Version erlaubt einige Serverfunktionen nur noch BookOrbits eigener iPhone-App. Dafür nutzt BookOrbit App Attest, eine Apple-Funktion, mit der ein Server prüfen kann, ob eine Anfrage wirklich von einer bestimmten App kommt. BookOrbit akzeptiert diese Prüfung nur von der eigenen App, und keine Servereinstellung lässt andere Apps zu.
+
+- Wiedergabe, Fortschritt, Lesezeichen, Downloads, deine Bibliothek, die Suche und Weiterhören funktionieren wie bisher.
+- Smart Scopes, in den Sammlungen und in CarPlay: Morrow 1.13.1 für iPhone und iPad lädt sie mit 3.7.0, und ein Scope mit mehr als 50 Büchern zeigt jetzt alle. Ältere Versionen können sie nicht laden. Die Lösung für Android ist unterwegs.
+- BookOrbits Serie in der Statistik, also die Zeilen „Serie auf diesem Server“ und „Längste Serie“ unter dem Namen deines Servers: fehlen mit 3.7.0 bis Morrow 1.14 für iPhone und iPad und bis zum nächsten Update für Apple TV. Morrows eigene Hörstatistik, die auf deinen Geräten gezählt wird, ist nicht betroffen.
+- Zusammengeführte Bücher: Mit 3.7.0 lassen sich doppelte Exemplare eines Buchs zu einem zusammenführen. Ein zusammengeführtes Exemplar spielt weiter, und sein Fortschritt landet beim Buch, in das es zusammengeführt wurde. Noch folgt Morrow der Zusammenführung nicht überall: Ein geladenes Exemplar kann als „nicht mehr auf deinem Server“ erscheinen, und ein zusammengeführtes Exemplar verschwindet aus „Als Nächstes“. Eine Lösung ist geplant.
 
 ### Wo melde ich einen Fehler?
 

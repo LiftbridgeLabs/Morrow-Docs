@@ -62,6 +62,10 @@ To add listening from before Morrow 1.10.1, open **Settings**, choose your BookO
 - Each session is counted once, however often you tap.
 - If you also played a book under another account or server on the same device, Morrow holds those sessions back and asks before sending them. Older sessions don't record which account they came from, so sending them counts all of them as this account's listening.
 
+## BookOrbit versions
+
+Some BookOrbit updates change what apps are allowed to do. [Server compatibility](server-compatibility.md) lists what each one means for Morrow, starting with BookOrbit 3.7.0.
+
 ## Problems connecting
 
 See [Troubleshooting](troubleshooting.md). When reporting a problem, include the Morrow version, device operating-system version, BookOrbit version, and the exact error text. Remove credentials and private tokens first.
