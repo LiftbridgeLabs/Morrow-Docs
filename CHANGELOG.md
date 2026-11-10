@@ -22,6 +22,13 @@ Released November 9, 2026.
 
 - Statistics shows your reading streak and longest streak on BookOrbit 3.7 servers
 
+## 1.13.1 (iPhone and iPad)
+
+Released November 9, 2026.
+
+- Smart scopes load on BookOrbit 3.7.0 and later. See [Server compatibility](docs/server-compatibility.md)
+- A smart scope with more than 50 books shows every book
+
 ## 1.4 (Apple TV)
 
 Released November 3, 2026.
