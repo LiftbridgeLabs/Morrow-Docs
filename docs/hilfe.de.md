@@ -72,7 +72,7 @@ Das Wichtigste zu BookOrbit 3.7.0 (erschienen am 8. November 2026): Diese Versio
 
 - Wiedergabe, Fortschritt, Lesezeichen, Downloads, deine Bibliothek, die Suche und Weiterhören funktionieren wie bisher.
 - Smart Scopes, in den Sammlungen und in CarPlay: Morrow 1.13.1 für iPhone und iPad lädt sie mit 3.7.0, und ein Scope mit mehr als 50 Büchern zeigt jetzt alle. Ältere Versionen können sie nicht laden. Die Lösung für Android ist unterwegs.
-- BookOrbits Serie in der Statistik, also die Zeilen „Serie auf diesem Server“ und „Längste Serie“ unter dem Namen deines Servers: fehlen mit 3.7.0 bis Morrow 1.14 für iPhone und iPad und bis zum nächsten Update für Apple TV. Morrows eigene Hörstatistik, die auf deinen Geräten gezählt wird, ist nicht betroffen.
+- BookOrbits Serie in der Statistik, also die Zeilen „Serie auf diesem Server“ und „Längste Serie“ unter dem Namen deines Servers: sind mit Morrow 1.14 für iPhone und iPad wieder da. Ältere Versionen und Apple TV bis zum nächsten Update zeigen sie mit 3.7.0 nicht. Morrows eigene Hörstatistik, die auf deinen Geräten gezählt wird, ist nicht betroffen.
 - Zusammengeführte Bücher: Mit 3.7.0 lassen sich doppelte Exemplare eines Buchs zu einem zusammenführen. Ein zusammengeführtes Exemplar spielt weiter, und sein Fortschritt landet beim Buch, in das es zusammengeführt wurde. Noch folgt Morrow der Zusammenführung nicht überall: Ein geladenes Exemplar kann als „nicht mehr auf deinem Server“ erscheinen, und ein zusammengeführtes Exemplar verschwindet aus „Als Nächstes“. Eine Lösung ist geplant.
 
 ### Wo melde ich einen Fehler?

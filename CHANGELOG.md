@@ -2,6 +2,31 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.14 (iPhone and iPad)
+
+Released November 11, 2026.
+
+### Podcasts
+
+- Listen to the podcasts on your Audiobookshelf server. A Podcasts tab has three views: Listening (episodes in progress and your shows), Latest (the newest episodes) and Shows (every show, with search)
+- Play, download and mark episodes Played. Podcast episodes don't count toward the free download limit, and a played episode's download is removed once you play something else
+- Star a show to keep it up front, and see how many unplayed episodes each show has
+- CarPlay has a Podcasts tab
+- With several servers, the Podcasts tab stays on every server and switches you to the one that has podcasts in one tap. Settings > Podcasts changes when the tab shows
+
+### Home
+
+- The top card shows whatever is playing, a book or a podcast episode
+- A Continue Listening: Podcasts row lists the episodes you have started
+- When a book ends, the next one in Up Next starts after a short countdown that you can stop
+
+### Servers
+
+- BookOrbit 3.7.0 and later: the streak lines in Statistics are back, alongside the smart scopes from 1.13.1. See [Server compatibility](docs/server-compatibility.md), also under Settings > Support
+- Audiobookshelf: a track you exclude on the server is skipped along with its chapters, and a book with tracks that have no file plays the rest and says so
+- Up Next follows a book your server re-imported under a new copy
+- In Downloads, tapping a book from another server asks before switching to it
+
 ## 1.5 (Apple TV)
 
 Released November 9, 2026.

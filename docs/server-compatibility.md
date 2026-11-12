@@ -14,7 +14,7 @@ BookOrbit 3.7.0 limits some server features to BookOrbit's own iPhone app. It us
 
 - Listening, progress sync, bookmarks, downloads, your library, search and Continue Listening: work as before.
 - Smart scopes, in Collections and in CarPlay: Morrow 1.13.1 for iPhone and iPad loads them on 3.7.0, and a scope with more than 50 books now shows every book. Earlier versions can't load them. The Android fix is on the way.
-- BookOrbit's streak in Statistics, the "Streak on this server" and "Longest streak" lines under your server's name: missing on 3.7.0 until Morrow 1.14 for iPhone and iPad and the next Apple TV update. Morrow's own listening stats, counted on your devices, aren't affected.
+- BookOrbit's streak in Statistics, the "Streak on this server" and "Longest streak" lines under your server's name: back in Morrow 1.14 for iPhone and iPad. Earlier versions, and the Apple TV until its next update, don't show them on 3.7.0. Morrow's own listening stats, counted on your devices, aren't affected.
 - Merged books: 3.7.0 can merge duplicate copies of a book into one. Listening on a merged copy keeps working, and its progress saves to the book it was merged into. Morrow doesn't follow a merge everywhere yet: a downloaded copy can show as no longer on your server, and a merged copy drops out of Up Next. A fix is planned.
 
 ## Audiobookshelf and Grimmory
