@@ -4,24 +4,31 @@ Morrow connects your device directly to audiobook servers that you choose and op
 
 ## The short version
 
-Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or advertising SDKs. The app never sends your data to Liftbridge Labs, and the only way we receive anything is if you email us yourself, such as a diagnostics file you chose to export and attach. Network traffic is between your device and the servers you configure, plus book catalogs you choose to search when you look up details for a book stored on your device. Apple users can optionally enable an iCloud Keychain backup.
+Morrow has no accounts, analytics, ads, tracking, crash-reporting SDKs, or advertising SDKs. The app never sends your data to Liftbridge Labs, and the only way we receive anything is if you email us yourself, such as a diagnostics file you chose to export and attach. Network traffic is between your device and the servers you configure, plus book catalogs you choose to search when you look up details for a book stored on your device. Apple users can optionally enable an iCloud Keychain backup. On Android, your setup is included in your phone's Google backup, as described below.
 
 ## Server credentials
 
 - On Apple devices, server passwords, proxy-header values, and Audiobookshelf API keys are stored in the iOS Keychain.
 - On Android, secrets are encrypted using a key held by Android Keystore; non-secret server settings are stored in app-private DataStore storage.
-- Credentials leave the device only to authenticate with the server you configured them for (for example, a sign-in request to your own BookOrbit server). They are never sent anywhere else.
+- Credentials leave the device only to authenticate with the server you configured them for (for example, a sign-in request to your own BookOrbit server), and for the backups described below. They are never sent anywhere else.
 
 ## iCloud backup (optional, Apple only)
 
 - "Back up to iCloud" in Settings is **off by default**.
 - When enabled, it stores your server list (server name, address, username, sign-in type, and the password or API key) as a synchronized item in your **iCloud Keychain**, which Apple end-to-end encrypts. No file appears in iCloud Drive, and Liftbridge Labs cannot read it.
 - The backup persists if you delete the app (so a reinstall can restore your setup). Turning the toggle off deletes the backup from iCloud for all devices.
-- This iCloud Keychain backup holds the server list only. The recently played list, listening history, and other cross-device state are handled separately, through your private iCloud database, as described in the next section. Android secure backup is currently disabled.
+- This iCloud Keychain backup holds the server list only. The recently played list, listening history, and other cross-device state are handled separately, through your private iCloud database, as described under "Sync between your Apple devices" below.
+
+## Google backup (Android)
+
+- Your server list (server name, address, username, and sign-in type), Home shelves and pins, settings, Up Next, saved positions, recently played list, and listening history and statistics are included in your phone's standard Google backup, so a new phone set up from that backup gets them back. This follows your phone's own backup setting (in Android Settings, under Google, then Backup), and Google keeps it in your Google account. Liftbridge Labs cannot read it. Downloads, caches, logs, and saves still waiting to reach a server are left out.
+- Server passwords, API keys, and custom header values (such as a Cloudflare Access token) are backed up separately, through **Google Block Store**. They are sent to your Google account only when the phone's backup is on and the phone has a screen lock, because Google then **end-to-end encrypts** them with it and cannot read them. On a phone with no screen lock they are not sent to Google, and Settings, Backup says so. Sign-in tokens are never backed up; a restored phone signs in again.
+- "Back up passwords" in Settings, Backup is **on by default**. Turning it off deletes the backed-up passwords. Removing a server from Morrow also removes its password from the backup.
+- The backup remains if you delete the app, so a reinstall can restore your setup. To remove the passwords, turn off "Back up passwords" before deleting the app. The rest of the backup is managed in your Google account's backup settings.
 
 ## Sync between your Apple devices (optional)
 
-The same "Sync Servers and Up Next" setting that controls the iCloud backup above also keeps a small amount of state in step between your Apple devices, including Apple TV. iCloud Keychain alone cannot do this, because Apple TV has no access to it. This covers Apple devices only; Android keeps the equivalent records on the device.
+The same "Sync Servers and Up Next" setting that controls the iCloud backup above also keeps a small amount of state in step between your Apple devices, including Apple TV. iCloud Keychain alone cannot do this, because Apple TV has no access to it. This covers Apple devices only. Android does not sync between devices; it keeps the equivalent records on the phone and in its Google backup.
 
 - This uses your **private iCloud database (CloudKit)**, in your own iCloud account. Liftbridge Labs has no access to it and receives nothing.
 - Everything Morrow stores there is written to **end-to-end encrypted fields**, so only your own devices can read it. That includes your server passwords and API keys, your server addresses and usernames, and every list described below. Apple stores it but cannot read it.
@@ -33,14 +40,14 @@ The same "Sync Servers and Up Next" setting that controls the iCloud backup abov
 
 - Playback progress is stored **on your own servers**, using each server's normal progress features, the same records their web players use.
 - Morrow also keeps device-local position records so a server-side re-import does not lose your place. Android additionally checkpoints the exact current position about every five seconds for process-death recovery.
-- Recently played identifiers and per-book listening-session history are kept on the device. Apple can sync those records as described above; Android keeps them device-local.
+- Recently played identifiers and per-book listening-session history are kept on the device. Apple can sync those records as described above; Android keeps them on the device and in its Google backup.
 
 ## On-device data
 
 - Cover images and library listings are cached on-device so the app opens fast.
 - Downloaded books are stored on-device until you remove them.
 - The automatic playback cache stores streamed books on-device up to the size limit you set, and is excluded from device backups. You can inspect and clear it in Settings at any time.
-- Deleting the Android app removes its local data and Android Keystore secrets. On Apple devices, local files are removed while Keychain items follow Apple's standard behavior; the optional iCloud backup remains until you disable it.
+- Deleting the Android app removes its local data and Android Keystore secrets; the Google backup described above remains. On Apple devices, local files are removed while Keychain items follow Apple's standard behavior; the optional iCloud backup remains until you disable it.
 
 ## Looking up book details (optional)
 
@@ -69,7 +76,7 @@ Morrow keeps a few small diagnostic logs on the device so a playback or download
 
 - Liftbridge Labs receives nothing from the app itself, so there is nothing to retain. The exception is email you choose to send us: we keep a support message and anything attached to it only as long as it takes to answer you and fix the problem it describes. It is never sold, shared, or used for marketing.
 - Your servers retain the listening progress you send them, under your control.
-- On-device data is removed by deleting the app, subject to Apple's standard Keychain retention behavior; the optional iCloud backup is removed by turning the backup toggle off.
+- On-device data is removed by deleting the app, subject to Apple's standard Keychain retention behavior; the optional iCloud backup is removed by turning the backup toggle off. On Android, the backed-up passwords are removed by turning off "Back up passwords", and the rest of the Google backup is managed in your Google account.
 
 ## Contact
 

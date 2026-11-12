@@ -2,6 +2,43 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## Android build 30
+
+Released on Google Play November 12, 2026.
+
+### Home and your library
+
+- Pin any series, collection or Audiobookshelf playlist to Home as its own shelf. Settings, Home Shelves lists your pins, and you can drag the shelves into any order
+- Author and narrator pages list books by series, show the volumes you're missing, and have a sort menu
+- A book's page shows its narrator. Tap the name to see everything they've read
+- Discover keeps the same picks all day, and on Audiobookshelf it draws from your whole library
+- New to Morrow without a server? The welcome screen's I Don't Have a Server Yet explains how to set one up
+
+### Playing and downloads
+
+- A refreshed Playing screen, laid out like the iPhone's
+- Downloads & Storage is laid out like the iPhone's, and shows how far you've listened to each downloaded book
+- Multi-part BookOrbit books play their parts in the server's order
+- A streamed book that loses its connection shows an error instead of loading forever
+
+### Android Auto
+
+- Covers in every list and on Now Playing
+- Browsing another server in the car no longer switches to it. Switch to that server when you want it
+
+### Settings and support
+
+- Your servers, passwords and settings come back with your Google backup. Passwords are only backed up end-to-end encrypted, which needs a screen lock on the phone
+- Test Connection shows how many books and authors the server has
+- Links open the guides on morrowplayer.com, and a Community row opens r/MorrowPlayer
+- Opening a shared audiobook file asks before adding it to On This Device
+- The warning about plain http addresses only shows for addresses outside your home network or Tailscale
+
+### Fixes
+
+- Home works after opening Morrow from the widget
+- Fixes for rare crashes
+
 ## 1.14 (iPhone and iPad)
 
 Released November 11, 2026.

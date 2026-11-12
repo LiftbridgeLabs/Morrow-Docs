@@ -6,24 +6,31 @@ Dies ist eine Übersetzung der [englischen Fassung](https://liftbridgelabs.app/p
 
 ## Kurz gesagt
 
-Morrow hat keine Benutzerkonten, keine Analyse, keine Werbung, kein Tracking und keine SDKs für Absturzberichte oder Werbung. Die App sendet deine Daten nie an Liftbridge Labs. Wir erhalten nur dann etwas, wenn du uns selbst eine E-Mail schreibst, etwa mit einer Diagnosedatei, die du selbst exportiert und angehängt hast. Der Netzwerkverkehr läuft zwischen deinem Gerät und den Servern, die du einrichtest, sowie den Buchkatalogen, die du durchsuchst, wenn du Details für ein Buch auf deinem Gerät nachschlägst. Auf Apple-Geräten kannst du zusätzlich eine Sicherung im iCloud-Schlüsselbund einschalten.
+Morrow hat keine Benutzerkonten, keine Analyse, keine Werbung, kein Tracking und keine SDKs für Absturzberichte oder Werbung. Die App sendet deine Daten nie an Liftbridge Labs. Wir erhalten nur dann etwas, wenn du uns selbst eine E-Mail schreibst, etwa mit einer Diagnosedatei, die du selbst exportiert und angehängt hast. Der Netzwerkverkehr läuft zwischen deinem Gerät und den Servern, die du einrichtest, sowie den Buchkatalogen, die du durchsuchst, wenn du Details für ein Buch auf deinem Gerät nachschlägst. Auf Apple-Geräten kannst du zusätzlich eine Sicherung im iCloud-Schlüsselbund einschalten. Unter Android ist deine Einrichtung im Google-Backup deines Telefons enthalten, wie unten beschrieben.
 
 ## Server-Zugangsdaten
 
 - Auf Apple-Geräten werden Server-Passwörter, Werte eigener Proxy-Header und Audiobookshelf-API-Schlüssel im Schlüsselbund von iOS gespeichert.
 - Unter Android werden diese Geheimnisse mit einem Schlüssel verschlüsselt, den der Android Keystore verwahrt. Server-Einstellungen, die nicht geheim sind, liegen im app-eigenen DataStore-Speicher.
-- Zugangsdaten verlassen das Gerät nur, um sich bei dem Server anzumelden, für den du sie eingerichtet hast (zum Beispiel eine Anmeldung bei deinem eigenen BookOrbit-Server). Sie werden nirgendwohin sonst gesendet.
+- Zugangsdaten verlassen das Gerät nur, um sich bei dem Server anzumelden, für den du sie eingerichtet hast (zum Beispiel eine Anmeldung bei deinem eigenen BookOrbit-Server), und für die unten beschriebenen Sicherungen. Sie werden nirgendwohin sonst gesendet.
 
 ## iCloud-Sicherung (optional, nur Apple)
 
 - „In iCloud sichern“ in den Einstellungen ist **standardmäßig ausgeschaltet**.
 - Wenn du es einschaltest, wird deine Serverliste (Servername, Adresse, Benutzername, Anmeldeart und das Passwort oder der API-Schlüssel) als synchronisiertes Objekt in deinem **iCloud-Schlüsselbund** gespeichert, den Apple Ende-zu-Ende verschlüsselt. In iCloud Drive erscheint keine Datei, und Liftbridge Labs kann die Sicherung nicht lesen.
 - Die Sicherung bleibt erhalten, wenn du die App löschst, damit eine Neuinstallation deine Einrichtung wiederherstellen kann. Schaltest du die Option aus, wird die Sicherung für alle Geräte aus iCloud gelöscht.
-- Diese Sicherung im iCloud-Schlüsselbund enthält nur die Serverliste. Die Liste der zuletzt gespielten Titel, der Hörverlauf und anderer geräteübergreifender Zustand werden getrennt davon über deine private iCloud-Datenbank behandelt, wie im nächsten Abschnitt beschrieben. Die sichere Sicherung unter Android ist derzeit deaktiviert.
+- Diese Sicherung im iCloud-Schlüsselbund enthält nur die Serverliste. Die Liste der zuletzt gespielten Titel, der Hörverlauf und anderer geräteübergreifender Zustand werden getrennt davon über deine private iCloud-Datenbank behandelt, wie unten unter „Synchronisierung zwischen deinen Apple-Geräten“ beschrieben.
+
+## Google-Backup (Android)
+
+- Deine Serverliste (Servername, Adresse, Benutzername und Anmeldeart), deine Home-Regale und angehefteten Regale, Einstellungen, „Als Nächstes“, gespeicherte Positionen, die Liste zuletzt gespielter Titel sowie Hörverlauf und Statistik sind im üblichen Google-Backup deines Telefons enthalten, damit ein neues Telefon, das du aus diesem Backup einrichtest, sie zurückbekommt. Das folgt der Backup-Einstellung deines Telefons (in den Android-Einstellungen unter Google, dann Backup), und Google bewahrt es in deinem Google-Konto auf. Liftbridge Labs kann es nicht lesen. Downloads, Caches, Protokolle und Speicherungen, die noch auf einen Server warten, sind nicht enthalten.
+- Server-Passwörter, API-Schlüssel und Werte eigener Header (etwa ein Cloudflare-Access-Token) werden getrennt davon über **Google Block Store** gesichert. Sie werden nur dann an dein Google-Konto gesendet, wenn das Backup des Telefons eingeschaltet ist und das Telefon eine Displaysperre hat, denn dann **verschlüsselt** Google sie damit **Ende-zu-Ende** und kann sie nicht lesen. Auf einem Telefon ohne Displaysperre werden sie nicht an Google gesendet, und „Einstellungen > Sicherung“ weist darauf hin. Anmelde-Tokens werden nie gesichert; ein wiederhergestelltes Telefon meldet sich neu an.
+- „Passwörter sichern“ unter „Einstellungen > Sicherung“ ist **standardmäßig eingeschaltet**. Schaltest du es aus, werden die gesicherten Passwörter gelöscht. Entfernst du einen Server aus Morrow, wird auch sein Passwort aus der Sicherung entfernt.
+- Die Sicherung bleibt erhalten, wenn du die App löschst, damit eine Neuinstallation deine Einrichtung wiederherstellen kann. Um die Passwörter zu entfernen, schalte „Passwörter sichern“ aus, bevor du die App löschst. Den Rest des Backups verwaltest du in den Backup-Einstellungen deines Google-Kontos.
 
 ## Synchronisierung zwischen deinen Apple-Geräten (optional)
 
-Dieselbe Einstellung „Server und ‚Als Nächstes‘ synchronisieren“, die die iCloud-Sicherung oben steuert, hält auch einen kleinen Teil des Zustands zwischen deinen Apple-Geräten gleich, einschließlich Apple TV. Der iCloud-Schlüsselbund allein kann das nicht, weil Apple TV keinen Zugriff darauf hat. Das betrifft nur Apple-Geräte; Android behält die entsprechenden Einträge auf dem Gerät.
+Dieselbe Einstellung „Server und ‚Als Nächstes‘ synchronisieren“, die die iCloud-Sicherung oben steuert, hält auch einen kleinen Teil des Zustands zwischen deinen Apple-Geräten gleich, einschließlich Apple TV. Der iCloud-Schlüsselbund allein kann das nicht, weil Apple TV keinen Zugriff darauf hat. Das betrifft nur Apple-Geräte. Android synchronisiert nicht zwischen Geräten; es behält die entsprechenden Einträge auf dem Telefon und in seinem Google-Backup.
 
 - Dafür wird deine **private iCloud-Datenbank (CloudKit)** in deinem eigenen iCloud-Account verwendet. Liftbridge Labs hat keinen Zugriff darauf und erhält nichts.
 - Alles, was Morrow dort speichert, steht in **Ende-zu-Ende verschlüsselten Feldern**, sodass nur deine eigenen Geräte es lesen können. Das umfasst deine Server-Passwörter und API-Schlüssel, deine Serveradressen und Benutzernamen und jede unten beschriebene Liste. Apple speichert die Daten, kann sie aber nicht lesen.
@@ -35,14 +42,14 @@ Dieselbe Einstellung „Server und ‚Als Nächstes‘ synchronisieren“, die d
 
 - Der Wiedergabefortschritt wird **auf deinen eigenen Servern** gespeichert, mit den normalen Fortschrittsfunktionen des jeweiligen Servers, also denselben Einträgen, die auch deren Web-Player verwenden.
 - Morrow speichert außerdem Positionseinträge auf dem Gerät, damit ein erneuter Import auf dem Server deine Stelle nicht verliert. Android sichert zusätzlich etwa alle fünf Sekunden die genaue aktuelle Position, damit sie nach einem Beenden der App durch das System erhalten bleibt.
-- Kennungen zuletzt gespielter Titel und der Verlauf der Hörsitzungen pro Buch bleiben auf dem Gerät. Auf Apple-Geräten können diese Einträge wie oben beschrieben synchronisiert werden; Android behält sie auf dem Gerät.
+- Kennungen zuletzt gespielter Titel und der Verlauf der Hörsitzungen pro Buch bleiben auf dem Gerät. Auf Apple-Geräten können diese Einträge wie oben beschrieben synchronisiert werden; Android behält sie auf dem Gerät und in seinem Google-Backup.
 
 ## Daten auf dem Gerät
 
 - Cover und Bibliothekslisten werden auf dem Gerät zwischengespeichert, damit die App schnell startet.
 - Geladene Bücher bleiben auf dem Gerät, bis du sie entfernst.
 - Der automatische Wiedergabe-Cache speichert gestreamte Bücher bis zu dem von dir festgelegten Limit auf dem Gerät und ist von Gerätesicherungen ausgenommen. Du kannst ihn jederzeit in den Einstellungen ansehen und leeren.
-- Löschst du die Android-App, werden ihre lokalen Daten und die Geheimnisse im Android Keystore entfernt. Auf Apple-Geräten werden lokale Dateien entfernt, während Einträge im Schlüsselbund dem üblichen Verhalten von Apple folgen; die optionale iCloud-Sicherung bleibt bestehen, bis du sie ausschaltest.
+- Löschst du die Android-App, werden ihre lokalen Daten und die Geheimnisse im Android Keystore entfernt; das oben beschriebene Google-Backup bleibt bestehen. Auf Apple-Geräten werden lokale Dateien entfernt, während Einträge im Schlüsselbund dem üblichen Verhalten von Apple folgen; die optionale iCloud-Sicherung bleibt bestehen, bis du sie ausschaltest.
 
 ## Buchdetails nachschlagen (optional)
 
@@ -71,7 +78,7 @@ Morrow führt einige kleine Diagnoseprotokolle auf dem Gerät, damit sich ein Wi
 
 - Liftbridge Labs erhält aus der App selbst nichts, daher gibt es nichts aufzubewahren. Die Ausnahme sind E-Mails, die du uns selbst schickst: Eine Support-Nachricht und ihre Anhänge bewahren wir nur so lange auf, wie es dauert, dir zu antworten und das beschriebene Problem zu beheben. Sie werden nie verkauft, weitergegeben oder für Werbung verwendet.
 - Deine Server bewahren den Hörfortschritt, den du an sie sendest, unter deiner Kontrolle auf.
-- Daten auf dem Gerät werden durch das Löschen der App entfernt, vorbehaltlich des üblichen Verhaltens des Apple-Schlüsselbunds; die optionale iCloud-Sicherung entfernst du, indem du die Option zur Sicherung ausschaltest.
+- Daten auf dem Gerät werden durch das Löschen der App entfernt, vorbehaltlich des üblichen Verhaltens des Apple-Schlüsselbunds; die optionale iCloud-Sicherung entfernst du, indem du die Option zur Sicherung ausschaltest. Unter Android entfernst du die gesicherten Passwörter, indem du „Passwörter sichern“ ausschaltest; den Rest des Google-Backups verwaltest du in deinem Google-Konto.
 
 ## Kontakt
 
