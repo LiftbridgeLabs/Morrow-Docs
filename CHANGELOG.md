@@ -2,6 +2,30 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## 1.6 (Apple TV)
+
+Not released yet.
+
+### Podcasts
+
+- Listen to the podcasts on your Audiobookshelf server. A Podcasts tab has three views: Listening (episodes in progress, new episodes and your shows), Latest (the newest episodes of every show) and Shows (every show)
+- Sort Shows by title or newest episode, in either direction, or narrow them to one genre. Each Apple TV remembers its own choice
+- A show's page has its full description and its episodes in two columns, Up Next and Played. A show that spans several seasons or years gets a button for each, opening on the one you are partway through
+- An episode's details have Go to Show, which opens that show's page
+- Home has a Continue Listening: Podcasts row for the episodes you have started
+- With several servers, the Podcasts tab offers a one-press switch to a server that has podcasts
+
+### Playing
+
+- The page of a book or episode that is already playing has Now Playing, which goes straight to the player, and a Play/Pause button
+- Settings > Playback > Speed offers 1.15x, matching the speeds on Now Playing
+
+### Settings and Home
+
+- Settings works like the Apple TV's own, with your server and its connection shown on the left. Libraries can be turned on and off there, and the Library tab switches between the ones that are on without stopping what is playing
+- Collections and series you pin to Home on your iPhone or iPad show on the TV's Home too
+- The Top Shelf keeps up with what you listen to on your other devices, even while Morrow is closed
+
 ## Android build 30
 
 Released on Google Play November 12, 2026.
