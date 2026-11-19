@@ -2,6 +2,14 @@
 
 Morrow for iPhone, iPad, and Apple TV is live on the App Store, and iPhone and iPad builds are also in TestFlight. The Android app is live on Google Play. Version-numbered notes for each public release are below, followed by a summary of everything the current builds do.
 
+## Android build 31
+
+Released on Google Play November 19, 2026.
+
+- Smart scopes and your reading streak work again on BookOrbit 3.7 and later, and a scope with more than 50 books lists every book
+- Scope rows show how many books they hold
+- With Rewind after pause on, a book interrupted by a navigation prompt or a notification picks up a few seconds back
+
 ## 1.6 (Apple TV)
 
 Released November 18, 2026.
